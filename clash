@@ -549,9 +549,77 @@ rules:
  - DOMAIN-SUFFIX,ytimg.com,📹 Youtube
  - DOMAIN,youtubei.googleapis.com,📹 Youtube
  - DOMAIN,yt3.ggpht.com,📹 Youtube
- - DOMAIN-SUFFIX,misty.ltd,▶️ EMBY
+ - DOMAIN-KEYWORD,embypaul.top,▶️ EMBY
+ - DOMAIN-KEYWORD,kiyoginn.ml,▶️ EMBY
+ - DOMAIN-KEYWORD,ju.dog ,▶️ EMBY
+ - DOMAIN-SUFFIX,emby.nexitally.com,▶️ EMBY
+ - DOMAIN-SUFFIX,cc.ccemby.tk,▶️ EMBY
+ - DOMAIN-SUFFIX,embymv.tk,▶️ EMBY
+ - DOMAIN-SUFFIX,embytv.cf,▶️ EMBY
+ - DOMAIN-SUFFIX,emby.cjpc.cc,▶️ EMBY
+ - DOMAIN-SUFFIX,emby.flowercloud.yt,▶️ EMBY
+ - DOMAIN-SUFFIX,emby.maying.club,▶️ EMBY
+ - DOMAIN-SUFFIX,emby.mdss.cloud,▶️ EMBY
+ - DOMAIN-SUFFIX,emby.ytoo.li,▶️ EMBY
+ - DOMAIN-SUFFIX,embyserver.ga,▶️ EMBY
+ - DOMAIN-SUFFIX,emby.prprcloud.com,▶️ EMBY
+ - DOMAIN-SUFFIX,emby.nyancat.net,▶️ EMBY
+ - DOMAIN-SUFFIX,emby.plusmedia.site,▶️ EMBY
+ - DOMAIN-SUFFIX,emby-cf.plusmedia.site,▶️ EMBY
+ - DOMAIN-SUFFIX,emby.xeton.dev,▶️ EMBY
+ - DOMAIN-SUFFIX,jellyfin.xeton.dev,▶️ EMBY
+ - DOMAIN-SUFFIX,movie.xeton.dev,▶️ EMBY
+ - DOMAIN-SUFFIX,servers.xeton.dev,▶️ EMBY
+ - DOMAIN-SUFFIX,emby.otakudrive.life,▶️ EMBY
+ - DOMAIN-SUFFIX,emby2.otakudrive.life,▶️ EMBY
+ - DOMAIN-SUFFIX,agahk1.jmsooo.com,▶️ EMBY
+ - DOMAIN-SUFFIX,agasg1.jmsooo.com,▶️ EMBY
+ - DOMAIN-SUFFIX,agajp1.jmsooo.com,▶️ EMBY
+ - DOMAIN-SUFFIX,aws.jmsooo.com,▶️ EMBY
+ - DOMAIN-SUFFIX,ntt1.jmsooo.com,▶️ EMBY
+ - DOMAIN-SUFFIX,hinet.jmsooo.com,▶️ EMBY
+ - DOMAIN-SUFFIX,cf1.jmsooo.com,▶️ EMBY
+ - DOMAIN-SUFFIX,pornemby.club,▶️ EMBY
+ - DOMAIN-SUFFIX,emby.immtel.com,▶️ EMBY
+ - DOMAIN-SUFFIX,cf.odysseyplus.site,▶️ EMBY
+ - DOMAIN-SUFFIX,agahk.odysseyplus.site,▶️ EMBY
+ - DOMAIN-SUFFIX,agasg.odysseyplus.site,▶️ EMBY
+ - DOMAIN-SUFFIX,ru.odysseyplus.site,▶️ EMBY
+ - DOMAIN-SUFFIX,line.emby.men,▶️ EMBY
+ - DOMAIN-SUFFIX,emby.run,▶️ EMBY
+ - DOMAIN-SUFFIX,emby.plusmedia.s,▶️ EMBYite
+ - DOMAIN-SUFFIX,emby-sg.plusmedia.site,▶️ EMBY
+ - DOMAIN-SUFFIX,emby-cf.plusmedia.site,▶️ EMBY
+ - DOMAIN-SUFFIX,emby.xeton.dev,▶️ EMBY
+ - DOMAIN-SUFFIX,jellyfin.xeton.dev,▶️ EMBY
+ - DOMAIN-SUFFIX,movie.xeton.dev,▶️ EMBY
+ - DOMAIN-SUFFIX,servers.xeton.dev,▶️ EMBY
+ - DOMAIN-SUFFIX,embyserver.ga,▶️ EMBY
+ - DOMAIN-SUFFIX,jmsooo.com,▶️ EMBY
+ - DOMAIN-SUFFIX,cf.jmsooo.com,▶️ EMBY
+ - DOMAIN-SUFFIX,hk.jmsooo.com,▶️ EMBY
+ - DOMAIN-SUFFIX,sg.jmsooo.com,▶️ EMBY
  - DOMAIN-SUFFIX,emby.wtf,▶️ EMBY
- - DOMAIN-SUFFIX,880660.xyz,▶️ EMBY
+ - DOMAIN-SUFFIX,pub1back.emby.w,▶️ EMBYtf
+ - DOMAIN-SUFFIX,pub2back.emby.wtf,▶️ EMBY
+ - DOMAIN-SUFFIX,pub3back.emby.wtf,▶️ EMBY
+ - DOMAIN-SUFFIX,pub1.emby.wtf,▶️ EMBY
+ - DOMAIN-SUFFIX,pub2.emby.wtf,▶️ EMBY
+ - DOMAIN-SUFFIX,pub3.emby.wtf,▶️ EMBY
+ - DOMAIN-SUFFIX,embyclub.com,▶️ EMBY
+ - DOMAIN-SUFFIX,az-hk.embyclub.com,▶️ EMBY
+ - DOMAIN-SUFFIX,azsgp.embyclub.com,▶️ EMBY
+ - DOMAIN-SUFFIX,play.charontv.com,▶️ EMBY
+ - DOMAIN-SUFFIX,emby.p-p.men,▶️ EMBY
+ - DOMAIN-SUFFIX,krcf.st8.one,▶️ EMBY
+ - DOMAIN-SUFFIX,emby.aiyowei.ml,▶️ EMBY
+ - DOMAIN-SUFFIX,178.173.230.58,▶️ EMBY
+ - DOMAIN-SUFFIX,emby.hm773.xyz,▶️ EMBY
+ - DOMAIN-SUFFIX,45.92.156.143,▶️ EMBY
+ - DOMAIN-SUFFIX,https://emby.st8.one,▶️ EMBY
+ - DOMAIN-SUFFIX,https://cf.st8.one,▶️ EMBY
+ - DOMAIN-SUFFIX,https://sg.st8.one,▶️ EMBY
+ - DOMAIN-SUFFIX,178.173.230.8,▶️ EMBY
  - DOMAIN-SUFFIX,ccemby.ml,🌍 国外媒体
  - DOMAIN-SUFFIX,ext-twitch.tv,🌍 国外媒体
  - DOMAIN-SUFFIX,jtvnw.net,🌍 国外媒体
