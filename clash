@@ -553,7 +553,6 @@ rules:
  - DOMAIN-KEYWORD,kiyoginn.ml,▶️ EMBY
  - DOMAIN-KEYWORD,ju.dog ,▶️ EMBY
  - DOMAIN-SUFFIX,emby.nexitally.com,▶️ EMBY
- - DOMAIN-SUFFIX,cc.ccemby.tk,▶️ EMBY
  - DOMAIN-SUFFIX,embymv.tk,▶️ EMBY
  - DOMAIN-SUFFIX,embytv.cf,▶️ EMBY
  - DOMAIN-SUFFIX,emby.cjpc.cc,▶️ EMBY
@@ -599,6 +598,7 @@ rules:
  - DOMAIN-SUFFIX,cf.jmsooo.com,▶️ EMBY
  - DOMAIN-SUFFIX,hk.jmsooo.com,▶️ EMBY
  - DOMAIN-SUFFIX,sg.jmsooo.com,▶️ EMBY
+ - DOMAIN-SUFFIX,emby.ml,▶️ EMBY
  - DOMAIN-SUFFIX,emby.wtf,▶️ EMBY
  - DOMAIN-SUFFIX,pub1back.emby.wtf,▶️ EMBY
  - DOMAIN-SUFFIX,pub2back.emby.wtf,▶️ EMBY
@@ -620,7 +620,6 @@ rules:
  - DOMAIN-SUFFIX,https://cf.st8.one,▶️ EMBY
  - DOMAIN-SUFFIX,https://sg.st8.one,▶️ EMBY
  - DOMAIN-SUFFIX,178.173.230.8,▶️ EMBY
- - DOMAIN-SUFFIX,ccemby.ml,🌍 国外媒体
  - DOMAIN-SUFFIX,ext-twitch.tv,🌍 国外媒体
  - DOMAIN-SUFFIX,jtvnw.net,🌍 国外媒体
  - DOMAIN-SUFFIX,ttvnw.net,🌍 国外媒体
