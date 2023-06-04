@@ -587,7 +587,7 @@ rules:
  - DOMAIN-SUFFIX,ru.odysseyplus.site,▶️ EMBY
  - DOMAIN-SUFFIX,line.emby.men,▶️ EMBY
  - DOMAIN-SUFFIX,emby.run,▶️ EMBY
- - DOMAIN-SUFFIX,emby.plusmedia.s,▶️ EMBYite
+ - DOMAIN-SUFFIX,emby.plusmedia.site,▶️ EMBY
  - DOMAIN-SUFFIX,emby-sg.plusmedia.site,▶️ EMBY
  - DOMAIN-SUFFIX,emby-cf.plusmedia.site,▶️ EMBY
  - DOMAIN-SUFFIX,emby.xeton.dev,▶️ EMBY
@@ -600,7 +600,7 @@ rules:
  - DOMAIN-SUFFIX,hk.jmsooo.com,▶️ EMBY
  - DOMAIN-SUFFIX,sg.jmsooo.com,▶️ EMBY
  - DOMAIN-SUFFIX,emby.wtf,▶️ EMBY
- - DOMAIN-SUFFIX,pub1back.emby.w,▶️ EMBYtf
+ - DOMAIN-SUFFIX,pub1back.emby.wtf,▶️ EMBY
  - DOMAIN-SUFFIX,pub2back.emby.wtf,▶️ EMBY
  - DOMAIN-SUFFIX,pub3back.emby.wtf,▶️ EMBY
  - DOMAIN-SUFFIX,pub1.emby.wtf,▶️ EMBY
