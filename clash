@@ -3825,6 +3825,7 @@ rules:
  - DOMAIN-SUFFIX,pub1.emby.wtf,▶️ EMBY
  - DOMAIN-SUFFIX,pub2.emby.wtf,▶️ EMBY
  - DOMAIN-SUFFIX,pub3.emby.wtf,▶️ EMBY
+ - DOMAIN-SUFFIX,880660.xyz,▶️ EMBY
  - DOMAIN-SUFFIX,embyclub.com,▶️ EMBY
  - DOMAIN-SUFFIX,az-hk.embyclub.com,▶️ EMBY
  - DOMAIN-SUFFIX,azsgp.embyclub.com,▶️ EMBY
@@ -3838,5 +3839,6 @@ rules:
  - DOMAIN-SUFFIX,https://emby.st8.one,▶️ EMBY
  - DOMAIN-SUFFIX,https://cf.st8.one,▶️ EMBY
  - DOMAIN-SUFFIX,https://sg.st8.one,▶️ EMBY
+ - DOMAIN-SUFFIX,https://freetz.top,▶️ EMBY
  - GEOIP,CN,🎯 全球直连
  - MATCH,🐟 漏网之鱼
