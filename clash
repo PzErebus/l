@@ -221,19 +221,8 @@ proxy-groups:
   - name: 🐟 漏网之鱼
     type: select
     proxies:
-      - 🚀 节点选择
-      - 🎯 全球直连
-      - ♻️ 自动选择
-      - 🇭🇰 香港01|移动|1.0x
-      - 🇯🇵 日本01|移动|1.0x
-      - 🇯🇵 日本02|移动|1.0x
-      - 🇯🇵 日本03|移动|1.0x
-      - 🇺🇸 美国01|电信|1.0x
-      - 🇨🇦 加拿大|电信|1.0x
-      - 🇸🇬 新加坡01|移动1.0x
-      - 🇸🇬 新加坡02|移动|1.0x
-      - 🇸🇬 新加坡03|移动|1.0x
-      - 🇸🇬 新加坡04|移动|1.0x
+      - REJECT
+      - DIRECT
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
