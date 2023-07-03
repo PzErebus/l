@@ -22,6 +22,9 @@ proxies:
   - {name: 🇸🇬 新加坡02|移动|1.0x, server: hzcm-xc01ca.zzcloud.top, port: 46548, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: aa6ae480-6d7b-44eb-9e79-c2527ca91fae, tfo: false}
   - {name: 🇸🇬 新加坡03|移动|1.0x, server: hzcm-xc01ca.zzcloud.top, port: 40909, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: aa6ae480-6d7b-44eb-9e79-c2527ca91fae, tfo: false}
   - {name: 🇸🇬 新加坡04|移动|1.0x, server: hzcm-xc01ca.zzcloud.top, port: 32265, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: aa6ae480-6d7b-44eb-9e79-c2527ca91fae, tfo: false}
+  - {name: 🇨🇳 上海, server: sh.moobt.com, port: 10000, client-fingerprint: chrome, type: vless, uuid: 0a33a541-2f94-4897-848d-49a7dfb98988, tls: false, tfo: false, servername: a.189.cn, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}}
+  - {name: 🇨🇳 广州, server: gz.moobt.com, port: 10000, client-fingerprint: chrome, type: vless, uuid: 0a33a541-2f94-4897-848d-49a7dfb98988, tls: false, tfo: false, servername: a.189.cn, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}}
+  - {name: 🇨🇳 济南, server: sd.moobt.com, port: 10000, client-fingerprint: chrome, type: vless, uuid: 0a33a541-2f94-4897-848d-49a7dfb98988, tls: false, tfo: false, servername: a.189.cn, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -179,6 +182,13 @@ proxy-groups:
       - 🇸🇬 新加坡02|移动|1.0x
       - 🇸🇬 新加坡03|移动|1.0x
       - 🇸🇬 新加坡04|移动|1.0x
+  - name: ▶️ EMBY直连
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🇨🇳 上海
+      - 🇨🇳 广州
+      - 🇨🇳 济南
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -3757,11 +3767,13 @@ rules:
  - IP-CIDR,101.198.128.0/18,🎯 全球直连,no-resolve
  - IP-CIDR,101.198.192.0/19,🎯 全球直连,no-resolve
  - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
+ - DOMAIN-SUFFIX,embymv.tk,▶️ EMBY直连
+ - DOMAIN-SUFFIX,cc.ccemby.tk,▶️ EMBY直连
+ - DOMAIN-SUFFIX,freetz.top,▶️ EMBY直连
  - DOMAIN-KEYWORD,embypaul.top,▶️ EMBY
  - DOMAIN-KEYWORD,kiyoginn.ml,▶️ EMBY
  - DOMAIN-KEYWORD,ju.dog ,▶️ EMBY
  - DOMAIN-SUFFIX,emby.nexitally.com,▶️ EMBY
- - DOMAIN-SUFFIX,embymv.tk,▶️ EMBY
  - DOMAIN-SUFFIX,embytv.cf,▶️ EMBY
  - DOMAIN-SUFFIX,emby.cjpc.cc,▶️ EMBY
  - DOMAIN-SUFFIX,emby.flowercloud.yt,▶️ EMBY
@@ -3825,9 +3837,8 @@ rules:
  - DOMAIN-SUFFIX,178.173.230.58,▶️ EMBY
  - DOMAIN-SUFFIX,emby.hm773.xyz,▶️ EMBY
  - DOMAIN-SUFFIX,45.92.156.143,▶️ EMBY
- - DOMAIN-SUFFIX,https://emby.st8.one,▶️ EMBY
- - DOMAIN-SUFFIX,https://cf.st8.one,▶️ EMBY
- - DOMAIN-SUFFIX,https://sg.st8.one,▶️ EMBY
- - DOMAIN-SUFFIX,https://freetz.top,▶️ EMBY
+ - DOMAIN-SUFFIX,emby.st8.one,▶️ EMBY
+ - DOMAIN-SUFFIX,cf.st8.one,▶️ EMBY
+ - DOMAIN-SUFFIX,sg.st8.one,▶️ EMBY
  - GEOIP,CN,🎯 全球直连
  - MATCH,🐟 漏网之鱼
