@@ -12,6 +12,7 @@ proxies:
   - {name: 🇯🇵 日本2, server: gz.moobt.com, port: 10003, client-fingerprint: chrome, type: vless, uuid: 0a33a541-2f94-4897-848d-49a7dfb98988, tls: false, tfo: false, servername: a.189.cn, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}}
   - {name: 🇰🇷 韩国1, server: sh.moobt.com, port: 10001, client-fingerprint: chrome, type: vless, uuid: 0a33a541-2f94-4897-848d-49a7dfb98988, tls: false, tfo: false, servername: a.189.cn, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}}
   - {name: 🇰🇷 韩国2, server: gz.moobt.com, port: 10001, client-fingerprint: chrome, type: vless, uuid: 0a33a541-2f94-4897-848d-49a7dfb98988, tls: false, tfo: false, servername: a.189.cn, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}}
+  - {name: 🇭🇰 香港, server: laikeung.ml, port: 8080, type: vmess, uuid: 337b4531-1b3a-4566-bc3c-f9a926cd96c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: laikeung.ml}}}
   - {name: 🇯🇵 日本, server: hzcm-xc01ca.zzcloud.top, port: 21911, type: ss, cipher: chacha20-ietf-poly1305, password: 031c9e60-976f-4f8b-8670-7334d69cc2b8}
   - {name: 🇸🇬 新加坡, server: zjcu-imey1r.zzcloud.top, port: 23680, type: ss, cipher: chacha20-ietf-poly1305, password: 031c9e60-976f-4f8b-8670-7334d69cc2b8}
   - {name: 🇺🇸 美国, server: szct-xugmmd.zzcloud.top, port: 33423, type: ss, cipher: chacha20-ietf-poly1305, password: 031c9e60-976f-4f8b-8670-7334d69cc2b8}
@@ -31,6 +32,7 @@ proxy-groups:
       - 🇰🇷 韩国2
       - 🇯🇵 日本1
       - 🇯🇵 日本2
+      - 🇭🇰 香港
       - 🇯🇵 日本
       - 🇸🇬 新加坡
       - 🇺🇸 美国
@@ -47,6 +49,7 @@ proxy-groups:
       - 🇰🇷 韩国2
       - 🇯🇵 日本1
       - 🇯🇵 日本2
+      - 🇭🇰 香港
       - 🇯🇵 日本
       - 🇸🇬 新加坡
       - 🇺🇸 美国
@@ -63,6 +66,7 @@ proxy-groups:
       - 🇰🇷 韩国2
       - 🇯🇵 日本1
       - 🇯🇵 日本2
+      - 🇭🇰 香港
       - 🇯🇵 日本
       - 🇸🇬 新加坡
       - 🇺🇸 美国
@@ -78,6 +82,7 @@ proxy-groups:
       - 🇰🇷 韩国2
       - 🇯🇵 日本1
       - 🇯🇵 日本2
+      - 🇭🇰 香港
       - 🇯🇵 日本
       - 🇸🇬 新加坡
       - 🇺🇸 美国
@@ -93,6 +98,7 @@ proxy-groups:
       - 🇰🇷 韩国2
       - 🇯🇵 日本1
       - 🇯🇵 日本2
+      - 🇭🇰 香港
       - 🇯🇵 日本
       - 🇸🇬 新加坡
       - 🇺🇸 美国
@@ -108,6 +114,7 @@ proxy-groups:
       - 🇰🇷 韩国2
       - 🇯🇵 日本1
       - 🇯🇵 日本2
+      - 🇭🇰 香港
       - 🇯🇵 日本
       - 🇸🇬 新加坡
       - 🇺🇸 美国
@@ -123,6 +130,7 @@ proxy-groups:
       - 🇰🇷 韩国2
       - 🇯🇵 日本1
       - 🇯🇵 日本2
+      - 🇭🇰 香港
       - 🇯🇵 日本
       - 🇸🇬 新加坡
       - 🇺🇸 美国
@@ -146,6 +154,7 @@ proxy-groups:
       - 🇰🇷 韩国2
       - 🇯🇵 日本1
       - 🇯🇵 日本2
+      - 🇭🇰 香港
       - 🇯🇵 日本
       - 🇸🇬 新加坡
       - 🇺🇸 美国
