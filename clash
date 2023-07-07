@@ -12,6 +12,9 @@ proxies:
   - {name: 🇯🇵 日本2, server: gz.moobt.com, port: 10003, client-fingerprint: chrome, type: vless, uuid: 0a33a541-2f94-4897-848d-49a7dfb98988, tls: false, tfo: false, servername: a.189.cn, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}}
   - {name: 🇰🇷 韩国1, server: sh.moobt.com, port: 10001, client-fingerprint: chrome, type: vless, uuid: 0a33a541-2f94-4897-848d-49a7dfb98988, tls: false, tfo: false, servername: a.189.cn, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}}
   - {name: 🇰🇷 韩国2, server: gz.moobt.com, port: 10001, client-fingerprint: chrome, type: vless, uuid: 0a33a541-2f94-4897-848d-49a7dfb98988, tls: false, tfo: false, servername: a.189.cn, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}}
+  - {name: 🇯🇵 日本, server: hzcm-xc01ca.zzcloud.top, port: 21911, type: ss, cipher: chacha20-ietf-poly1305, password: 031c9e60-976f-4f8b-8670-7334d69cc2b8}
+  - {name: 🇸🇬 新加坡, server: zjcu-imey1r.zzcloud.top, port: 23680, type: ss, cipher: chacha20-ietf-poly1305, password: 031c9e60-976f-4f8b-8670-7334d69cc2b8}
+  - {name: 🇺🇸 美国, server: szct-xugmmd.zzcloud.top, port: 33423, type: ss, cipher: chacha20-ietf-poly1305, password: 031c9e60-976f-4f8b-8670-7334d69cc2b8}
   - {name: 🇨🇳 上海, server: sh.moobt.com, port: 10000, client-fingerprint: chrome, type: vless, uuid: 0a33a541-2f94-4897-848d-49a7dfb98988, tls: false, tfo: false, servername: a.189.cn, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}}
   - {name: 🇨🇳 广州, server: gz.moobt.com, port: 10000, client-fingerprint: chrome, type: vless, uuid: 0a33a541-2f94-4897-848d-49a7dfb98988, tls: false, tfo: false, servername: a.189.cn, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}}
   - {name: 🇨🇳 济南, server: sd.moobt.com, port: 10000, client-fingerprint: chrome, type: vless, uuid: 0a33a541-2f94-4897-848d-49a7dfb98988, tls: false, tfo: false, servername: a.189.cn, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}}
@@ -28,6 +31,9 @@ proxy-groups:
       - 🇰🇷 韩国2
       - 🇯🇵 日本1
       - 🇯🇵 日本2
+      - 🇰🇷 韩国2
+      - 🇸🇬 新加坡
+      - 🇺🇸 美国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -41,6 +47,9 @@ proxy-groups:
       - 🇰🇷 韩国2
       - 🇯🇵 日本1
       - 🇯🇵 日本2
+      - 🇰🇷 韩国2
+      - 🇸🇬 新加坡
+      - 🇺🇸 美国
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -54,6 +63,9 @@ proxy-groups:
       - 🇰🇷 韩国2
       - 🇯🇵 日本1
       - 🇯🇵 日本2
+      - 🇰🇷 韩国2
+      - 🇸🇬 新加坡
+      - 🇺🇸 美国
   - name: 📲 电报信息
     type: select
     proxies:
@@ -66,6 +78,9 @@ proxy-groups:
       - 🇰🇷 韩国2
       - 🇯🇵 日本1
       - 🇯🇵 日本2
+      - 🇰🇷 韩国2
+      - 🇸🇬 新加坡
+      - 🇺🇸 美国
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -78,6 +93,9 @@ proxy-groups:
       - 🇰🇷 韩国2
       - 🇯🇵 日本1
       - 🇯🇵 日本2
+      - 🇰🇷 韩国2
+      - 🇸🇬 新加坡
+      - 🇺🇸 美国
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -90,6 +108,9 @@ proxy-groups:
       - 🇰🇷 韩国2
       - 🇯🇵 日本1
       - 🇯🇵 日本2
+      - 🇰🇷 韩国2
+      - 🇸🇬 新加坡
+      - 🇺🇸 美国
   - name: ▶️ EMBY
     type: select
     proxies:
@@ -102,6 +123,9 @@ proxy-groups:
       - 🇰🇷 韩国2
       - 🇯🇵 日本1
       - 🇯🇵 日本2
+      - 🇰🇷 韩国2
+      - 🇸🇬 新加坡
+      - 🇺🇸 美国
   - name: ▶️ EMBY直连
     type: select
     proxies:
@@ -122,6 +146,9 @@ proxy-groups:
       - 🇰🇷 韩国2
       - 🇯🇵 日本1
       - 🇯🇵 日本2
+      - 🇰🇷 韩国2
+      - 🇸🇬 新加坡
+      - 🇺🇸 美国
   - name: 🎯 全球直连
     type: select
     proxies:
