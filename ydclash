@@ -3788,7 +3788,7 @@ rules:
  - DOMAIN-SUFFIX,emby.hm773.xyz,▶️ EMBY
  - DOMAIN-SUFFIX,45.92.156.143,▶️ EMBY
  - DOMAIN-SUFFIX,emby.st8.one,▶️ EMBY
- - DOMAIN-SUFFIX,cf.st8.one,▶️ EMBY
- - DOMAIN-SUFFIX,sg.st8.one,▶️ EMBY
+ - DOMAIN-SUFFIX,xmsl.org,▶️ EMBY
+ - DOMAIN-SUFFIX,loseremby.org,▶️ EMBY
  - GEOIP,CN,🎯 全球直连
  - MATCH,🐟 漏网之鱼
