@@ -20,6 +20,8 @@ proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
+      - ⚖️ 负载均衡-散列
+      - ⚖️ 负载均衡-轮询
       - ♻️ 自动选择
       - DIRECT
       - 🇭🇰 香港宽频AWS
@@ -152,6 +154,34 @@ proxy-groups:
     proxies:
       - DIRECT
       - REJECT
+  - name: ⚖️ 负载均衡-散列
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: consistent-hashing
+    proxies:
+      - 🇭🇰 香港宽频AWS
+      - 🇭🇰 香港1
+      - 🇭🇰 香港2
+      - 🇭🇰 香港3
+      - 🇰🇷 韩国1
+      - 🇰🇷 韩国2
+      - 🇯🇵 日本1
+      - 🇯🇵 日本2
+  - name: ⚖️ 负载均衡-轮询
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: round-robin
+    proxies:
+      - 🇭🇰 香港宽频AWS
+      - 🇭🇰 香港1
+      - 🇭🇰 香港2
+      - 🇭🇰 香港3
+      - 🇰🇷 韩国1
+      - 🇰🇷 韩国2
+      - 🇯🇵 日本1
+      - 🇯🇵 日本2
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
