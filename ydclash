@@ -5,6 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 🇭🇰 香港宽频AWS, server: duck.moobt.com, port: 80, type: vmess, uuid: 337b4531-1b3a-4566-bc3c-f9a926cd96c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: duck.moobt.com}}}
   - {name: 🇭🇰 香港1, server: sh.moobt.com, port: 10002, client-fingerprint: chrome, type: vless, uuid: 0a33a541-2f94-4897-848d-49a7dfb98988, tls: false, tfo: false, servername: a.189.cn, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}}
   - {name: 🇭🇰 香港2, server: gz.moobt.com, port: 10002, client-fingerprint: chrome, type: vless, uuid: 0a33a541-2f94-4897-848d-49a7dfb98988, tls: false, tfo: false, servername: a.189.cn, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}}
   - {name: 🇯🇵 日本1, server: sh.moobt.com, port: 10003, client-fingerprint: chrome, type: vless, uuid: 0a33a541-2f94-4897-848d-49a7dfb98988, tls: false, tfo: false, servername: a.189.cn, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}}
@@ -22,6 +23,7 @@ proxy-groups:
       - ⚖️ 负载均衡-轮询
       - ♻️ 自动选择
       - DIRECT
+      - 🇭🇰 香港宽频AWS
       - 🇭🇰 香港1
       - 🇭🇰 香港2
       - 🇰🇷 韩国1
@@ -34,6 +36,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇭🇰 香港宽频AWS
       - 🇭🇰 香港1
       - 🇭🇰 香港2
       - 🇰🇷 韩国1
@@ -46,6 +49,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇭🇰 香港宽频AWS
       - 🇭🇰 香港1
       - 🇭🇰 香港2
       - 🇰🇷 韩国1
@@ -57,6 +61,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇭🇰 香港宽频AWS
       - 🇭🇰 香港1
       - 🇭🇰 香港2
       - 🇰🇷 韩国1
@@ -68,6 +73,7 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 🇭🇰 香港宽频AWS
       - 🇭🇰 香港1
       - 🇭🇰 香港2
       - 🇰🇷 韩国1
@@ -79,6 +85,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇭🇰 香港宽频AWS
       - 🇭🇰 香港1
       - 🇭🇰 香港2
       - 🇰🇷 韩国1
@@ -90,6 +97,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇭🇰 香港宽频AWS
       - 🇭🇰 香港1
       - 🇭🇰 香港2
       - 🇰🇷 韩国1
@@ -109,6 +117,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇭🇰 香港宽频AWS
       - 🇭🇰 香港1
       - 🇭🇰 香港2
       - 🇰🇷 韩国1
@@ -142,6 +151,7 @@ proxy-groups:
     interval: 300
     strategy: consistent-hashing
     proxies:
+      - 🇭🇰 香港宽频AWS
       - 🇭🇰 香港1
       - 🇭🇰 香港2
       - 🇰🇷 韩国1
@@ -154,6 +164,7 @@ proxy-groups:
     interval: 300
     strategy: round-robin
     proxies:
+      - 🇭🇰 香港宽频AWS
       - 🇭🇰 香港1
       - 🇭🇰 香港2
       - 🇰🇷 韩国1
