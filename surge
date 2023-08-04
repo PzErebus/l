@@ -18,7 +18,6 @@ DIRECT = direct
 🇯🇵 日本2 = trojan, jp2.moobt.com, 443, password=0a33a541-2f94-4897-848d-49a7dfb98988, skip-cert-verify=false, tfo=false
 🇰🇷 韩国1 = trojan, kr1.moobt.com, 443, password=0a33a541-2f94-4897-848d-49a7dfb98988, skip-cert-verify=false, tfo=false
 🇰🇷 韩国2 = trojan, kr2.moobt.com, 443, password=0a33a541-2f94-4897-848d-49a7dfb98988, skip-cert-verify=false, tfo=false
-🌏 国内媒体 = direct
 
 
 [Proxy Group]
