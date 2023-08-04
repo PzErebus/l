@@ -202,6 +202,12 @@ proxy-groups:
       - 🇰🇷 韩国2
       - 🇯🇵 日本1
       - 🇯🇵 日本2
+      - 🇰🇷 韩国3
+      - 🇰🇷 韩国4
+      - 🇯🇵 日本3
+      - 🇯🇵 日本4
+      - 🇸🇬 新加坡1
+      - 🇸🇬 新加坡2
   - name: ⚖️ 负载均衡-轮询
     type: load-balance
     url: http://www.google.com/generate_204
@@ -214,6 +220,12 @@ proxy-groups:
       - 🇰🇷 韩国2
       - 🇯🇵 日本1
       - 🇯🇵 日本2
+      - 🇰🇷 韩国3
+      - 🇰🇷 韩国4
+      - 🇯🇵 日本3
+      - 🇯🇵 日本4
+      - 🇸🇬 新加坡1
+      - 🇸🇬 新加坡2
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
