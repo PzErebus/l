@@ -9,14 +9,14 @@ proxies:
   - {name: 🇭🇰 香港2, server: gz.moobt.com, port: 10002, client-fingerprint: chrome, type: vless, uuid: 0a33a541-2f94-4897-848d-49a7dfb98988, tls: false, tfo: false, servername: a.189.cn, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}}
   - {name: 🇯🇵 日本1, server: sh.moobt.com, port: 10003, client-fingerprint: chrome, type: vless, uuid: 0a33a541-2f94-4897-848d-49a7dfb98988, tls: false, tfo: false, servername: a.189.cn, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}}
   - {name: 🇯🇵 日本2, server: gz.moobt.com, port: 10003, client-fingerprint: chrome, type: vless, uuid: 0a33a541-2f94-4897-848d-49a7dfb98988, tls: false, tfo: false, servername: a.189.cn, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}}
-  - {name: 🇰🇷 韩国1, server: sh.moobt.com, port: 10001, client-fingerprint: chrome, type: vless, uuid: 0a33a541-2f94-4897-848d-49a7dfb98988, tls: false, tfo: false, servername: a.189.cn, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}}
-  - {name: 🇰🇷 韩国2, server: gz.moobt.com, port: 10001, client-fingerprint: chrome, type: vless, uuid: 0a33a541-2f94-4897-848d-49a7dfb98988, tls: false, tfo: false, servername: a.189.cn, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}}
-  - {name: 🇸🇬 新加坡1, server: sg1.moobt.com, port: 443, client-fingerprint: chrome, type: trojan, password: 0a33a541-2f94-4897-848d-49a7dfb98988, tfo: false, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡2, server: sg2.moobt.com, port: 443, client-fingerprint: chrome, type: trojan, password: 0a33a541-2f94-4897-848d-49a7dfb98988, tfo: false, skip-cert-verify: false}
   - {name: 🇯🇵 日本3, server: jp1.moobt.com, port: 443, client-fingerprint: chrome, type: trojan, password: 0a33a541-2f94-4897-848d-49a7dfb98988, tfo: false, skip-cert-verify: false}
   - {name: 🇯🇵 日本4, server: jp2.moobt.com, port: 443, client-fingerprint: chrome, type: trojan, password: 0a33a541-2f94-4897-848d-49a7dfb98988, tfo: false, skip-cert-verify: false}
-  - {name: 🇰🇷 韩国3, server: kr1.moobt.com, port: 443, client-fingerprint: chrome, type: trojan, password: 0a33a541-2f94-4897-848d-49a7dfb98988, tfo: false, skip-cert-verify: false}
-  - {name: 🇰🇷 韩国4, server: kr2.moobt.com, port: 443, client-fingerprint: chrome, type: trojan, password: 0a33a541-2f94-4897-848d-49a7dfb98988, tfo: false, skip-cert-verify: false}
+  - {name: 🇰🇷 韩国1, server: gz.moobt.com, port: 10001, client-fingerprint: chrome, type: vless, uuid: 0a33a541-2f94-4897-848d-49a7dfb98988, tls: false, tfo: false, servername: a.189.cn, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}}
+  - {name: 🇰🇷 韩国2, server: kr1.moobt.com, port: 443, client-fingerprint: chrome, type: trojan, password: 0a33a541-2f94-4897-848d-49a7dfb98988, tfo: false, skip-cert-verify: false}
+  - {name: 🇰🇷 韩国3, server: kr2.moobt.com, port: 443, client-fingerprint: chrome, type: trojan, password: 0a33a541-2f94-4897-848d-49a7dfb98988, tfo: false, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡1, server: sg1.moobt.com, port: 443, client-fingerprint: chrome, type: trojan, password: 0a33a541-2f94-4897-848d-49a7dfb98988, tfo: false, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡2, server: sg2.moobt.com, port: 443, client-fingerprint: chrome, type: trojan, password: 0a33a541-2f94-4897-848d-49a7dfb98988, tfo: false, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡3, server: sh.moobt.com, port: 10001, client-fingerprint: chrome, type: vless, uuid: 0a33a541-2f94-4897-848d-49a7dfb98988, tls: false, tfo: false, servername: a.189.cn, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}}
   - {name: 🇨🇳 上海, server: sh.moobt.com, port: 10000, client-fingerprint: chrome, type: vless, uuid: 0a33a541-2f94-4897-848d-49a7dfb98988, tls: false, tfo: false, servername: a.189.cn, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}}
   - {name: 🇨🇳 广州, server: gz.moobt.com, port: 10000, client-fingerprint: chrome, type: vless, uuid: 0a33a541-2f94-4897-848d-49a7dfb98988, tls: false, tfo: false, servername: a.189.cn, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}}
   - {name: 🇨🇳 济南, server: sd.moobt.com, port: 10000, client-fingerprint: chrome, type: vless, uuid: 0a33a541-2f94-4897-848d-49a7dfb98988, tls: false, tfo: false, servername: a.189.cn, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}}
@@ -30,16 +30,16 @@ proxy-groups:
       - DIRECT
       - 🇭🇰 香港1
       - 🇭🇰 香港2
-      - 🇰🇷 韩国1
-      - 🇰🇷 韩国2
       - 🇯🇵 日本1
       - 🇯🇵 日本2
-      - 🇰🇷 韩国3
-      - 🇰🇷 韩国4
       - 🇯🇵 日本3
       - 🇯🇵 日本4
+      - 🇰🇷 韩国1
+      - 🇰🇷 韩国2
+      - 🇰🇷 韩国3
       - 🇸🇬 新加坡1
       - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -48,16 +48,16 @@ proxy-groups:
     proxies:
       - 🇭🇰 香港1
       - 🇭🇰 香港2
-      - 🇰🇷 韩国1
-      - 🇰🇷 韩国2
       - 🇯🇵 日本1
       - 🇯🇵 日本2
-      - 🇰🇷 韩国3
-      - 🇰🇷 韩国4
       - 🇯🇵 日本3
       - 🇯🇵 日本4
+      - 🇰🇷 韩国1
+      - 🇰🇷 韩国2
+      - 🇰🇷 韩国3
       - 🇸🇬 新加坡1
       - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡3
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -66,16 +66,16 @@ proxy-groups:
       - 🎯 全球直连
       - 🇭🇰 香港1
       - 🇭🇰 香港2
-      - 🇰🇷 韩国1
-      - 🇰🇷 韩国2
       - 🇯🇵 日本1
       - 🇯🇵 日本2
-      - 🇰🇷 韩国3
-      - 🇰🇷 韩国4
       - 🇯🇵 日本3
       - 🇯🇵 日本4
+      - 🇰🇷 韩国1
+      - 🇰🇷 韩国2
+      - 🇰🇷 韩国3
       - 🇸🇬 新加坡1
       - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡3
   - name: 📲 电报信息
     type: select
     proxies:
@@ -83,16 +83,16 @@ proxy-groups:
       - 🎯 全球直连
       - 🇭🇰 香港1
       - 🇭🇰 香港2
-      - 🇰🇷 韩国1
-      - 🇰🇷 韩国2
       - 🇯🇵 日本1
       - 🇯🇵 日本2
-      - 🇰🇷 韩国3
-      - 🇰🇷 韩国4
       - 🇯🇵 日本3
       - 🇯🇵 日本4
+      - 🇰🇷 韩国1
+      - 🇰🇷 韩国2
+      - 🇰🇷 韩国3
       - 🇸🇬 新加坡1
       - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -100,16 +100,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🇭🇰 香港1
       - 🇭🇰 香港2
-      - 🇰🇷 韩国1
-      - 🇰🇷 韩国2
       - 🇯🇵 日本1
       - 🇯🇵 日本2
-      - 🇰🇷 韩国3
-      - 🇰🇷 韩国4
       - 🇯🇵 日本3
       - 🇯🇵 日本4
+      - 🇰🇷 韩国1
+      - 🇰🇷 韩国2
+      - 🇰🇷 韩国3
       - 🇸🇬 新加坡1
       - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡3
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -117,16 +117,16 @@ proxy-groups:
       - 🎯 全球直连
       - 🇭🇰 香港1
       - 🇭🇰 香港2
-      - 🇰🇷 韩国1
-      - 🇰🇷 韩国2
       - 🇯🇵 日本1
       - 🇯🇵 日本2
-      - 🇰🇷 韩国3
-      - 🇰🇷 韩国4
       - 🇯🇵 日本3
       - 🇯🇵 日本4
+      - 🇰🇷 韩国1
+      - 🇰🇷 韩国2
+      - 🇰🇷 韩国3
       - 🇸🇬 新加坡1
       - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡3
   - name: ▶️ EMBY
     type: select
     proxies:
@@ -134,16 +134,16 @@ proxy-groups:
       - 🎯 全球直连
       - 🇭🇰 香港1
       - 🇭🇰 香港2
-      - 🇰🇷 韩国1
-      - 🇰🇷 韩国2
       - 🇯🇵 日本1
       - 🇯🇵 日本2
-      - 🇰🇷 韩国3
-      - 🇰🇷 韩国4
       - 🇯🇵 日本3
       - 🇯🇵 日本4
+      - 🇰🇷 韩国1
+      - 🇰🇷 韩国2
+      - 🇰🇷 韩国3
       - 🇸🇬 新加坡1
       - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡3
   - name: ▶️ EMBY直连
     type: select
     proxies:
@@ -159,16 +159,16 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇭🇰 香港1
       - 🇭🇰 香港2
-      - 🇰🇷 韩国1
-      - 🇰🇷 韩国2
       - 🇯🇵 日本1
       - 🇯🇵 日本2
-      - 🇰🇷 韩国3
-      - 🇰🇷 韩国4
       - 🇯🇵 日本3
       - 🇯🇵 日本4
+      - 🇰🇷 韩国1
+      - 🇰🇷 韩国2
+      - 🇰🇷 韩国3
       - 🇸🇬 新加坡1
       - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -198,16 +198,16 @@ proxy-groups:
     proxies:
       - 🇭🇰 香港1
       - 🇭🇰 香港2
-      - 🇰🇷 韩国1
-      - 🇰🇷 韩国2
       - 🇯🇵 日本1
       - 🇯🇵 日本2
-      - 🇰🇷 韩国3
-      - 🇰🇷 韩国4
       - 🇯🇵 日本3
       - 🇯🇵 日本4
+      - 🇰🇷 韩国1
+      - 🇰🇷 韩国2
+      - 🇰🇷 韩国3
       - 🇸🇬 新加坡1
       - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡3
   - name: ⚖️ 负载均衡-轮询
     type: load-balance
     url: http://www.google.com/generate_204
@@ -216,16 +216,16 @@ proxy-groups:
     proxies:
       - 🇭🇰 香港1
       - 🇭🇰 香港2
-      - 🇰🇷 韩国1
-      - 🇰🇷 韩国2
       - 🇯🇵 日本1
       - 🇯🇵 日本2
-      - 🇰🇷 韩国3
-      - 🇰🇷 韩国4
       - 🇯🇵 日本3
       - 🇯🇵 日本4
+      - 🇰🇷 韩国1
+      - 🇰🇷 韩国2
+      - 🇰🇷 韩国3
       - 🇸🇬 新加坡1
       - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡3
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
