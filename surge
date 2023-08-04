@@ -1,0 +1,63 @@
+#!MANAGED-CONFIG https://v.id9.cc/sub?target=surge&ver=4&url=trojan%3A%2F%2F0a33a541-2f94-4897-848d-49a7dfb98988%40sg1.moobt.com%3A443%3Fflow%3Dxtls-rprx-vision%26security%3Dtls%26fp%3Drandom%26type%3Dtcp%26headerType%3Dnone%23%25E6%2596%25B0%25E5%258A%25A0%25E5%259D%25A11%7Ctrojan%3A%2F%2F0a33a541-2f94-4897-848d-49a7dfb98988%40sg2.moobt.com%3A443%3Fflow%3Dxtls-rprx-vision%26security%3Dtls%26fp%3Drandom%26type%3Dtcp%26headerType%3Dnone%23%25E6%2596%25B0%25E5%258A%25A0%25E5%259D%25A12%7Ctrojan%3A%2F%2F0a33a541-2f94-4897-848d-49a7dfb98988%40jp1.moobt.com%3A443%3Fflow%3Dxtls-rprx-vision%26security%3Dtls%26fp%3Drandom%26type%3Dtcp%26headerType%3Dnone%23%25E6%2597%25A5%25E6%259C%25AC1%7Ctrojan%3A%2F%2F0a33a541-2f94-4897-848d-49a7dfb98988%40jp2.moobt.com%3A443%3Fflow%3Dxtls-rprx-vision%26security%3Dtls%26fp%3Drandom%26type%3Dtcp%26headerType%3Dnone%23%25E6%2597%25A5%25E6%259C%25AC2%7Ctrojan%3A%2F%2F0a33a541-2f94-4897-848d-49a7dfb98988%40kr1.moobt.com%3A443%3Fflow%3Dxtls-rprx-vision%26security%3Dtls%26fp%3Drandom%26type%3Dtcp%26headerType%3Dnone%23%25E9%259F%25A9%25E5%259B%25BD1%7Ctrojan%3A%2F%2F0a33a541-2f94-4897-848d-49a7dfb98988%40kr2.moobt.com%3A443%3Fflow%3Dxtls-rprx-vision%26security%3Dtls%26fp%3Drandom%26type%3Dtcp%26headerType%3Dnone%23%25E9%259F%25A9%25E5%259B%25BD2%7C&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FNZESupB%2FProfile%2Fmain%2Foutpref%2Fpypref%2Fpyfull.ini&emoji=true&list=false&tfo=false&scv=false&fdn=false&sort=false interval=86400 strict=false
+
+[General]
+loglevel = notify
+bypass-system = true
+skip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,localhost,*.local,e.crashlytics.com,captive.apple.com,::ffff:0:0:0:0/1,::ffff:128:0:0:0/1
+#DNS设置或根据自己网络情况进行相应设置
+bypass-tun = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12
+dns-server = 119.29.29.29,223.5.5.5
+
+[Script]
+http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+
+[Proxy]
+DIRECT = direct
+🇸🇬 新加坡1 = trojan, sg1.moobt.com, 443, password=0a33a541-2f94-4897-848d-49a7dfb98988, skip-cert-verify=false, tfo=false
+🇸🇬 新加坡2 = trojan, sg2.moobt.com, 443, password=0a33a541-2f94-4897-848d-49a7dfb98988, skip-cert-verify=false, tfo=false
+🇯🇵 日本1 = trojan, jp1.moobt.com, 443, password=0a33a541-2f94-4897-848d-49a7dfb98988, skip-cert-verify=false, tfo=false
+🇯🇵 日本2 = trojan, jp2.moobt.com, 443, password=0a33a541-2f94-4897-848d-49a7dfb98988, skip-cert-verify=false, tfo=false
+🇰🇷 韩国1 = trojan, kr1.moobt.com, 443, password=0a33a541-2f94-4897-848d-49a7dfb98988, skip-cert-verify=false, tfo=false
+🇰🇷 韩国2 = trojan, kr2.moobt.com, 443, password=0a33a541-2f94-4897-848d-49a7dfb98988, skip-cert-verify=false, tfo=false
+🌏 国内媒体 = direct
+🇭🇰 香港 = direct
+🇺🇲 美国 = direct
+🇹🇼 台湾 = direct
+
+[Proxy Group]
+🚀 全球互联 = select,🚀 全部节点
+🚀 全部节点 = select,🇭🇰 香港,🇯🇵 日本,🇺🇲 美国,🇹🇼 台湾,🇸🇬 新加坡,🇸🇬 新加坡1,🇸🇬 新加坡2,🇯🇵 日本1,🇯🇵 日本2,🇰🇷 韩国1,🇰🇷 韩国2
+🎥 Netflix = select,🇭🇰 香港,🇯🇵 日本,🇺🇲 美国,🇹🇼 台湾,🇸🇬 新加坡,🇸🇬 新加坡1,🇸🇬 新加坡2,🇯🇵 日本1,🇯🇵 日本2,🇰🇷 韩国1,🇰🇷 韩国2
+📹 Youtube = select,🇭🇰 香港,🇯🇵 日本,🇺🇲 美国,🇹🇼 台湾,🇸🇬 新加坡,🇸🇬 新加坡1,🇸🇬 新加坡2,🇯🇵 日本1,🇯🇵 日本2,🇰🇷 韩国1,🇰🇷 韩国2
+▶️ Disney+ = select,🇭🇰 香港,🇯🇵 日本,🇺🇲 美国,🇹🇼 台湾,🇸🇬 新加坡,🇸🇬 新加坡1,🇸🇬 新加坡2,🇯🇵 日本1,🇯🇵 日本2,🇰🇷 韩国1,🇰🇷 韩国2
+🌍 国外媒体 = select,🚀 全球互联,🇭🇰 香港,🇯🇵 日本,🇺🇲 美国,🇹🇼 台湾,🇸🇬 新加坡,🇸🇬 新加坡1,🇸🇬 新加坡2,🇯🇵 日本1,🇯🇵 日本2,🇰🇷 韩国1,🇰🇷 韩国2
+📲 Telegram = select,🚀 全球互联,🇭🇰 香港,🇯🇵 日本,🇺🇲 美国,🇹🇼 台湾,🇸🇬 新加坡
+Ⓜ️ 微软服务 = select,DIRECT,🇭🇰 香港,🇯🇵 日本,🇺🇲 美国,🇹🇼 台湾,🇸🇬 新加坡,🇸🇬 新加坡1,🇸🇬 新加坡2,🇯🇵 日本1,🇯🇵 日本2,🇰🇷 韩国1,🇰🇷 韩国2
+🇯🇵 日本 = select,🇯🇵 日本1,🇯🇵 日本2
+🇸🇬 新加坡 = select,🇸🇬 新加坡1,🇸🇬 新加坡2
+🛑 广告拦截 = select,REJECT,DIRECT
+🐟 漏网之鱼 = select,DIRECT,🚀 全球互联
+
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/LocalAreaNetwork.list,DIRECT,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/NZESupB/Profile/main/Rule/Direct.list,DIRECT,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Unbreak.list,DIRECT,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Microsoft.list,Ⓜ️ 微软服务,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list,DIRECT,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Telegram/Telegram.list,📲 Telegram,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/NZESupB/Profile/main/Rule/Download.list,🌍 国外媒体,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Netflix.list,🎥 Netflix,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/YouTube.list,📹 Youtube,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/DisneyPlus.list,▶️ Disney+,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Streaming.list,🌍 国外媒体,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/StreamingSE.list,🌏 国内媒体,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/StreamingCN.list,🌏 国内媒体,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/NZESupB/Profile/main/Rule/Daily.list,🚀 全球互联,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/ChinaIP.list,DIRECT,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Advertising.list,🛑 广告拦截,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Hijacking.list,🛑 广告拦截,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Global.list,🚀 全球互联,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/NZESupB/Profile/main/Rule/us.list,🚀 全球互联,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/NZESupB/Profile/main/Rule/jp.list,🚀 全球互联,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/China.list,DIRECT,update-interval=86400
+FINAL,🐟 漏网之鱼
