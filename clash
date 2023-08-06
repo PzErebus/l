@@ -19,7 +19,6 @@ proxies:
   - {name: 🇸🇬 新加坡3, server: sh.moobt.com, port: 10001, client-fingerprint: chrome, type: vless, uuid: 0a33a541-2f94-4897-848d-49a7dfb98988, tls: false, tfo: false, servername: a.189.cn, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}}
   - {name: 🇨🇳 上海, server: sh.moobt.com, port: 10000, client-fingerprint: chrome, type: vless, uuid: 0a33a541-2f94-4897-848d-49a7dfb98988, tls: false, tfo: false, servername: a.189.cn, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}}
   - {name: 🇨🇳 广州, server: gz.moobt.com, port: 10000, client-fingerprint: chrome, type: vless, uuid: 0a33a541-2f94-4897-848d-49a7dfb98988, tls: false, tfo: false, servername: a.189.cn, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}}
-  - {name: 🇨🇳 济南, server: sd.moobt.com, port: 10000, client-fingerprint: chrome, type: vless, uuid: 0a33a541-2f94-4897-848d-49a7dfb98988, tls: false, tfo: false, servername: a.189.cn, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -150,7 +149,6 @@ proxy-groups:
       - 🎯 全球直连
       - 🇨🇳 上海
       - 🇨🇳 广州
-      - 🇨🇳 济南
   - name: 📢 谷歌FCM
     type: select
     proxies:
