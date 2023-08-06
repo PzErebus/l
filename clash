@@ -146,6 +146,7 @@ proxy-groups:
   - name: ▶️ EMBY直连
     type: select
     proxies:
+      -  ⚖️ 负载均衡-直连
       - 🇨🇳 上海
       - 🇨🇳 广州
   - name: 📢 谷歌FCM
@@ -222,6 +223,14 @@ proxy-groups:
       - 🇸🇬 新加坡1
       - 🇸🇬 新加坡2
       - 🇸🇬 新加坡3
+  - name: ⚖️ 负载均衡-直连
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 300
+    strategy: consistent-hashing
+    proxies:
+      - 🇨🇳 上海
+      - 🇨🇳 广州
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
