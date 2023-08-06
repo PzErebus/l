@@ -3764,6 +3764,7 @@ rules:
  - DOMAIN-SUFFIX,embymv.tk,▶️ EMBY直连
  - DOMAIN-SUFFIX,cc.ccemby.tk,▶️ EMBY直连
  - DOMAIN-SUFFIX,freetz.top,▶️ EMBY直连
+ - DOMAIN-SUFFIX,cc.carryz.net,▶️ EMBY直连
  - DOMAIN-KEYWORD,embypaul.top,▶️ EMBY
  - DOMAIN-KEYWORD,kiyoginn.ml,▶️ EMBY
  - DOMAIN-KEYWORD,ju.dog ,▶️ EMBY
