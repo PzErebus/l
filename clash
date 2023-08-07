@@ -146,8 +146,8 @@ proxy-groups:
   - name: ▶️ EMBY直连
     type: select
     proxies:
-      - DIRECT
       -  ⚖️ 负载均衡-直连
+      - DIRECT
       - 🇨🇳 上海
       - 🇨🇳 广州
   - name: 📢 谷歌FCM
