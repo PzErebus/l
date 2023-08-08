@@ -2315,6 +2315,8 @@ rules:
  - IP-CIDR,207.45.72.0/22,🌍 国外媒体,no-resolve
  - IP-CIDR,208.75.76.0/22,🌍 国外媒体,no-resolve
  - DOMAIN-SUFFIX,dmc.nico,🌍 国外媒体
+ - DOMAIN-SUFFIX,jable.tv,🌍 国外媒体
+ - DOMAIN-SUFFIX,missav.com,🌍 国外媒体
  - DOMAIN-SUFFIX,nicovideo.jp,🌍 国外媒体
  - DOMAIN-SUFFIX,nimg.jp,🌍 国外媒体
  - DOMAIN-KEYWORD,nivod,🌍 国外媒体
