@@ -183,6 +183,7 @@ proxy-groups:
       - DIRECT
       -  ⚖️ 负载均衡-直连
       - 🇨🇳 上海
+      - 🇨🇳 山东
       - 🇨🇳 广州
   - name: 📢 谷歌FCM
     type: select
@@ -2245,6 +2246,9 @@ rules:
  - DOMAIN-SUFFIX,fox.com,🌍 国外媒体
  - DOMAIN-SUFFIX,foxdcg.com,🌍 国外媒体
  - DOMAIN-SUFFIX,uplynk.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,mushroomtrack.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,doppiocdn.org,🌍 国外媒体
+ - DOMAIN-SUFFIX,jable.tv,🌍 国外媒体
  - DOMAIN-SUFFIX,hbo.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbogo.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbomax.com,🌍 国外媒体
