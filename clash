@@ -97,6 +97,7 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点选择
+      - ♻️ 自动选择
       - 🎯 全球直连
       - 🇺🇸 美国
       - 🇭🇰 香港1
@@ -118,6 +119,7 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点选择
+      - ♻️ 自动选择
       - 🎯 全球直连
       - 🇺🇸 美国
       - 🇭🇰 香港1
@@ -139,6 +141,7 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点选择
+      - ♻️ 自动选择
       - 🎯 全球直连
       - 🇺🇸 美国
       - 🇭🇰 香港1
@@ -160,6 +163,7 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点选择
+      - ♻️ 自动选择
       - 🎯 全球直连
       -  ⚖️ 负载均衡-直连
       - 🇺🇸 美国
@@ -182,6 +186,7 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点选择
+      - ♻️ 自动选择
       - 🎯 全球直连
       - 🇺🇸 美国
       - 🇭🇰 香港1
