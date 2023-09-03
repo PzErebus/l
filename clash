@@ -2201,7 +2201,6 @@ rules:
  - DOMAIN-SUFFIX,uplynk.com,🌍 国外媒体
  - DOMAIN-SUFFIX,mushroomtrack.com,🌍 国外媒体
  - DOMAIN-SUFFIX,doppiocdn.org,🌍 国外媒体
- - DOMAIN-SUFFIX,jable.tv,🌍 国外媒体
  - DOMAIN-SUFFIX,hbo.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbogo.com,🌍 国外媒体
  - DOMAIN-SUFFIX,hbomax.com,🌍 国外媒体
@@ -2209,10 +2208,6 @@ rules:
  - DOMAIN-SUFFIX,hbonow.com,🌍 国外媒体
  - DOMAIN-KEYWORD,.hbogoasia.,🌍 国外媒体
  - DOMAIN-KEYWORD,hbogoasia,🌍 国外媒体
- - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
- - DOMAIN,bcbolthboa-a.akamaihd.net,🌍 国外媒体
- - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🌍 国外媒体
- - DOMAIN,dai3fd1oh325y.cloudfront.net,🌍 国外媒体
  - DOMAIN,hboasia1-i.akamaihd.net,🌍 国外媒体
  - DOMAIN,hboasia2-i.akamaihd.net,🌍 国外媒体
  - DOMAIN,hboasia3-i.akamaihd.net,🌍 国外媒体
