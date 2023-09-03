@@ -161,6 +161,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      -  ⚖️ 负载均衡-直连
       - 🇺🇸 美国
       - 🇭🇰 香港1
       - 🇭🇰 香港2
@@ -177,14 +178,6 @@ proxy-groups:
       - 🇸🇬 新加坡1
       - 🇸🇬 新加坡2
       - 🇸🇬 新加坡3
-  - name: ▶️ EMBY直连
-    type: select
-    proxies:
-      - DIRECT
-      -  ⚖️ 负载均衡-直连
-      - 🇨🇳 上海
-      - 🇨🇳 山东
-      - 🇨🇳 广州
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -3818,10 +3811,11 @@ rules:
  - IP-CIDR,101.198.128.0/18,🎯 全球直连,no-resolve
  - IP-CIDR,101.198.192.0/19,🎯 全球直连,no-resolve
  - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
- - DOMAIN-SUFFIX,embymv.tk,▶️ EMBY直连
- - DOMAIN-SUFFIX,cc.ccemby.tk,▶️ EMBY直连
- - DOMAIN-SUFFIX,cc.carryz.net,▶️ EMBY直连
- - DOMAIN-SUFFIX,kr.freetz.top,▶️ EMBY直连
+ - DOMAIN-SUFFIX,embymv.tk,▶️ EMBY
+ - DOMAIN-SUFFIX,cc.ccemby.tk,▶️ EMBY
+ - DOMAIN-SUFFIX,cc.carryz.net,▶️ EMBY
+ - DOMAIN-SUFFIX,freetz.top,▶️ EMBY
+ - DOMAIN-SUFFIX,xmsl.org,▶️ EMBY
  - DOMAIN-SUFFIX,pub1back.emby.wtf,▶️ EMBY
  - DOMAIN-SUFFIX,pub2back.emby.wtf,▶️ EMBY
  - DOMAIN-SUFFIX,pub3back.emby.wtf,▶️ EMBY
