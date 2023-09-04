@@ -149,6 +149,9 @@ proxy-groups:
       - 🇸🇬 新加坡1
       - 🇸🇬 新加坡2
       - 🇸🇬 新加坡3
+      - 🇨🇳 上海
+      - 🇨🇳 山东
+      - 🇨🇳 广州
   - name: 📢 谷歌FCM
     type: select
     proxies:
