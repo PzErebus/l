@@ -1,0 +1,69 @@
+[general]
+excluded_routes=192.168.0.0/16, 172.16.0.0/12, 100.64.0.0/10, 10.0.0.0/8
+geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://github.com/KOP-XIAO/QuantumultX/raw/master/Scripts/IP_API.js
+network_check_url=http://www.baidu.com/
+server_check_url=http://www.gstatic.com/generate_204
+
+[dns]
+server=119.29.29.29
+server=223.5.5.5
+server=1.0.0.1
+server=8.8.8.8
+
+[policy]
+static=🚀 全球互联, 🚀 全部节点
+static=🚀 全部节点, 🇯🇵 日本,🇰🇷 韩国, 🇸🇬 新加坡, 🇸🇬 新加坡2, 🇸🇬 新加坡1, 🇯🇵 日本2, 🇯🇵 日本1, 🇰🇷 韩国2, 🇰🇷 韩国1
+static=🎥 Netflix, 🇯🇵 日本,🇰🇷 韩国, 🇸🇬 新加坡, 🇸🇬 新加坡2, 🇸🇬 新加坡1, 🇯🇵 日本2, 🇯🇵 日本1, 🇰🇷 韩国2, 🇰🇷 韩国1
+static=📹 Youtube, 🇯🇵 日本,🇰🇷 韩国, 🇸🇬 新加坡, 🇸🇬 新加坡2, 🇸🇬 新加坡1, 🇯🇵 日本2, 🇯🇵 日本1, 🇰🇷 韩国2, 🇰🇷 韩国1
+static=▶️ Disney+, 🇯🇵 日本,🇰🇷 韩国, 🇸🇬 新加坡, 🇸🇬 新加坡2, 🇸🇬 新加坡1, 🇯🇵 日本2, 🇯🇵 日本1, 🇰🇷 韩国2, 🇰🇷 韩国1
+static=🌍 国外媒体, 🚀 全球互联, 🇯🇵 日本,🇰🇷 韩国, 🇸🇬 新加坡, 🇸🇬 新加坡2, 🇸🇬 新加坡1, 🇯🇵 日本2, 🇯🇵 日本1, 🇰🇷 韩国2, 🇰🇷 韩国1, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/GlobalMedia.png
+static=📲 Telegram, 🚀 全球互联, 🇯🇵 日本,🇰🇷 韩国, 🇸🇬 新加坡, 🇸🇬 新加坡2, 🇸🇬 新加坡1, 🇯🇵 日本2, 🇯🇵 日本1, 🇰🇷 韩国2, 🇰🇷 韩国1
+static=🌏 国内媒体, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/DomesticMedia.png
+static=Ⓜ️ 微软服务, DIRECT, 🇯🇵 日本,🇰🇷 韩国, 🇸🇬 新加坡, 🇸🇬 新加坡2, 🇸🇬 新加坡1, 🇯🇵 日本2, 🇯🇵 日本1, 🇰🇷 韩国2, 🇰🇷 韩国1, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Microsoft.png
+static=🇯🇵 日本, 🇯🇵 日本2, 🇯🇵 日本1
+static=🇰🇷 韩国, 🇰🇷 韩国2, 🇰🇷 韩国1
+static=🇸🇬 新加坡, 🇸🇬 新加坡2, 🇸🇬 新加坡1
+static=🛑 广告拦截, REJECT, DIRECT
+static=🐟 漏网之鱼, DIRECT, 🚀 全球互联, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
+
+[server_remote]
+
+[filter_remote]
+https://id9.cc/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3RpbmR5MjAxMy9zdWJjb252ZXJ0ZXIvbWFzdGVyL2Jhc2UvcnVsZXMvTG9jYWxBcmVhTmV0d29yay5saXN0&group=RElSRUNU, tag=DIRECT, enabled=true
+https://id9.cc/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL05aRVN1cEIvUHJvZmlsZS9tYWluL1J1bGUvRGlyZWN0Lmxpc3Q&group=RElSRUNU, tag=DIRECT, enabled=true
+https://id9.cc/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpdmluZUVuZ2luZS9Qcm9maWxlcy9tYXN0ZXIvU3VyZ2UvUnVsZXNldC9VbmJyZWFrLmxpc3Q&group=RElSRUNU, tag=DIRECT, enabled=true
+https://id9.cc/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUnVsZXNldC9NaWNyb3NvZnQubGlzdA&group=4pOC77iPIOW-rui9r-acjeWKoQ, tag=Ⓜ️ 微软服务, enabled=true
+https://id9.cc/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUnVsZXNldC9Hb29nbGVGQ00ubGlzdA&group=RElSRUNU, tag=DIRECT, enabled=true
+https://id9.cc/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpdmluZUVuZ2luZS9Qcm9maWxlcy9tYXN0ZXIvU3VyZ2UvUnVsZXNldC9FeHRyYS9UZWxlZ3JhbS9UZWxlZ3JhbS5saXN0&group=8J-TsiBUZWxlZ3JhbQ, tag=📲 Telegram, enabled=true
+https://id9.cc/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL05aRVN1cEIvUHJvZmlsZS9tYWluL1J1bGUvRG93bmxvYWQubGlzdA&group=8J-MjSDlm73lpJblqpLkvZM, tag=🌍 国外媒体, enabled=true
+https://id9.cc/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpdmluZUVuZ2luZS9Qcm9maWxlcy9tYXN0ZXIvU3VyZ2UvUnVsZXNldC9TdHJlYW1pbmdNZWRpYS9WaWRlby9OZXRmbGl4Lmxpc3Q&group=8J-OpSBOZXRmbGl4, tag=🎥 Netflix, enabled=true
+https://id9.cc/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpdmluZUVuZ2luZS9Qcm9maWxlcy9tYXN0ZXIvU3VyZ2UvUnVsZXNldC9TdHJlYW1pbmdNZWRpYS9WaWRlby9Zb3VUdWJlLmxpc3Q&group=8J-TuSBZb3V0dWJl, tag=📹 Youtube, enabled=true
+https://id9.cc/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpdmluZUVuZ2luZS9Qcm9maWxlcy9tYXN0ZXIvU3VyZ2UvUnVsZXNldC9TdHJlYW1pbmdNZWRpYS9WaWRlby9EaXNuZXlQbHVzLmxpc3Q&group=4pa277iPIERpc25leSs, tag=▶️ Disney+, enabled=true
+https://id9.cc/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpdmluZUVuZ2luZS9Qcm9maWxlcy9tYXN0ZXIvU3VyZ2UvUnVsZXNldC9TdHJlYW1pbmdNZWRpYS9TdHJlYW1pbmcubGlzdA&group=8J-MjSDlm73lpJblqpLkvZM, tag=🌍 国外媒体, enabled=true
+https://id9.cc/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpdmluZUVuZ2luZS9Qcm9maWxlcy9tYXN0ZXIvU3VyZ2UvUnVsZXNldC9TdHJlYW1pbmdNZWRpYS9TdHJlYW1pbmdTRS5saXN0&group=8J-MjyDlm73lhoXlqpLkvZM, tag=🌏 国内媒体, enabled=true
+https://id9.cc/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpdmluZUVuZ2luZS9Qcm9maWxlcy9tYXN0ZXIvU3VyZ2UvUnVsZXNldC9TdHJlYW1pbmdNZWRpYS9TdHJlYW1pbmdDTi5saXN0&group=8J-MjyDlm73lhoXlqpLkvZM, tag=🌏 国内媒体, enabled=true
+https://id9.cc/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL05aRVN1cEIvUHJvZmlsZS9tYWluL1J1bGUvRGFpbHkubGlzdA&group=8J-agCDlhajnkIPkupLogZQ, tag=🚀 全球互联, enabled=true
+https://id9.cc/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpdmluZUVuZ2luZS9Qcm9maWxlcy9tYXN0ZXIvU3VyZ2UvUnVsZXNldC9FeHRyYS9DaGluYUlQLmxpc3Q&group=RElSRUNU, tag=DIRECT, enabled=true
+https://id9.cc/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpdmluZUVuZ2luZS9Qcm9maWxlcy9tYXN0ZXIvU3VyZ2UvUnVsZXNldC9HdWFyZC9BZHZlcnRpc2luZy5saXN0&group=8J-bkSDlub_lkYrmi6bmiKo, tag=🛑 广告拦截, enabled=true
+https://id9.cc/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpdmluZUVuZ2luZS9Qcm9maWxlcy9tYXN0ZXIvU3VyZ2UvUnVsZXNldC9HdWFyZC9IaWphY2tpbmcubGlzdA&group=8J-bkSDlub_lkYrmi6bmiKo, tag=🛑 广告拦截, enabled=true
+https://id9.cc/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpdmluZUVuZ2luZS9Qcm9maWxlcy9tYXN0ZXIvU3VyZ2UvUnVsZXNldC9HbG9iYWwubGlzdA&group=8J-agCDlhajnkIPkupLogZQ, tag=🚀 全球互联, enabled=true
+https://id9.cc/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL05aRVN1cEIvUHJvZmlsZS9tYWluL1J1bGUvdXMubGlzdA&group=8J-agCDlhajnkIPkupLogZQ, tag=🚀 全球互联, enabled=true
+https://id9.cc/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL05aRVN1cEIvUHJvZmlsZS9tYWluL1J1bGUvanAubGlzdA&group=8J-agCDlhajnkIPkupLogZQ, tag=🚀 全球互联, enabled=true
+https://id9.cc/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0RpdmluZUVuZ2luZS9Qcm9maWxlcy9tYXN0ZXIvU3VyZ2UvUnVsZXNldC9DaGluYS5saXN0&group=RElSRUNU, tag=DIRECT, enabled=true
+
+[rewrite_remote]
+
+[server_local]
+trojan = sg2.moobt.com:443, password=0a33a541-2f94-4897-848d-49a7dfb98988, over-tls=true, tls-host=, fast-open=false, tls-verification=true, tag=🇸🇬 新加坡2
+trojan = sg1.moobt.com:443, password=0a33a541-2f94-4897-848d-49a7dfb98988, over-tls=true, tls-host=, fast-open=false, tls-verification=true, tag=🇸🇬 新加坡1
+trojan = jp2.moobt.com:443, password=0a33a541-2f94-4897-848d-49a7dfb98988, over-tls=true, tls-host=, fast-open=false, tls-verification=true, tag=🇯🇵 日本2
+trojan = jp1.moobt.com:443, password=0a33a541-2f94-4897-848d-49a7dfb98988, over-tls=true, tls-host=, fast-open=false, tls-verification=true, tag=🇯🇵 日本1
+trojan = kr2.moobt.com:443, password=0a33a541-2f94-4897-848d-49a7dfb98988, over-tls=true, tls-host=, fast-open=false, tls-verification=true, tag=🇰🇷 韩国2
+trojan = kr1.moobt.com:443, password=0a33a541-2f94-4897-848d-49a7dfb98988, over-tls=true, tls-host=, fast-open=false, tls-verification=true, tag=🇰🇷 韩国1
+
+[filter_local]
+FINAL,🐟 漏网之鱼
+
+[rewrite_local]
+
+[mitm]
