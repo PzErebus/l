@@ -2624,6 +2624,7 @@ rules:
  - DOMAIN-SUFFIX,youtube-nocookie.com,🚀 节点选择
  - DOMAIN-SUFFIX,youtube.com,🚀 节点选择
  - DOMAIN-SUFFIX,yt.be,🚀 节点选择
+ - DOMAIN-SUFFIX,keeflys.com,🚀 节点选择
  - DOMAIN-SUFFIX,ytimg.com,🚀 节点选择
  - IP-CIDR,74.125.0.0/16,🚀 节点选择,no-resolve
  - IP-CIDR,173.194.0.0/16,🚀 节点选择,no-resolve
