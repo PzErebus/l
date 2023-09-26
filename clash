@@ -2856,7 +2856,6 @@ rules:
  - DOMAIN-SUFFIX,alisoft.com,🎯 全球直连
  - DOMAIN-SUFFIX,aliyun.com,🎯 全球直连
  - DOMAIN-SUFFIX,aliyuncdn.com,🎯 全球直连
- - DOMAIN-SUFFIX,aliyuncs.com,🎯 全球直连
  - DOMAIN-SUFFIX,aliyundrive.com,🎯 全球直连
  - DOMAIN-SUFFIX,amap.com,🎯 全球直连
  - DOMAIN-SUFFIX,autonavi.com,🎯 全球直连
