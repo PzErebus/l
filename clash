@@ -3738,5 +3738,6 @@ rules:
  - DOMAIN-SUFFIX,pub2.emby.wtf,▶️ EMBY
  - DOMAIN-SUFFIX,pub3.emby.wtf,▶️ EMBY
  - DOMAIN-SUFFIX,880660.xyz,▶️ EMBY
+ - DOMAIN-SUFFIX,aliyuncs.com,▶️ EMBY
  - GEOIP,CN,🎯 全球直连
  - MATCH,🐟 漏网之鱼
