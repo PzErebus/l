@@ -14,7 +14,6 @@ proxies:
   - {name: 🇸🇬 新加坡3, server: gz.moobt.com, port: 10002, client-fingerprint: chrome, type: vless, uuid: 0a33a541-2f94-4897-848d-49a7dfb98988, tls: false, tfo: false, servername: a.189.cn, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}}
   - {name: 🇸🇬 新加坡4, server: sh.moobt.com, port: 10002, client-fingerprint: chrome, type: vless, uuid: 0a33a541-2f94-4897-848d-49a7dfb98988, tls: false, tfo: false, servername: a.189.cn, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}}
   - {name: 🇨🇳 上海, server: sh.moobt.com, port: 10000, client-fingerprint: chrome, type: vless, uuid: 0a33a541-2f94-4897-848d-49a7dfb98988, tls: false, tfo: false, servername: a.189.cn, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}}
-  - {name: 🇨🇳 山东, server: sd.moobt.com, port: 10000, client-fingerprint: chrome, type: vless, uuid: 0a33a541-2f94-4897-848d-49a7dfb98988, tls: false, tfo: false, servername: a.189.cn, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}}
   - {name: 🇨🇳 广州, server: gz.moobt.com, port: 10000, client-fingerprint: chrome, type: vless, uuid: 0a33a541-2f94-4897-848d-49a7dfb98988, tls: false, tfo: false, servername: a.189.cn, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}}
 proxy-groups:
   - name: 🚀 节点选择
@@ -118,7 +117,6 @@ proxy-groups:
       - 🇸🇬 新加坡3
       - 🇸🇬 新加坡4
       - 🇨🇳 上海
-      - 🇨🇳 山东
       - 🇨🇳 广州
   - name: 📢 谷歌FCM
     type: select
@@ -155,6 +153,17 @@ proxy-groups:
     proxies:
       - DIRECT
       - REJECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - 🇭🇰 香港1
+      - 🇭🇰 香港2
+      - 🇯🇵 日本1
+      - 🇯🇵 日本2
+      - 🇸🇬 新加坡1
+      - 🇸🇬 新加坡2
+      - 🇸🇬 新加坡3
+      - 🇸🇬 新加坡4
   - name: ⚖️ 负载均衡-散列
     type: load-balance
     url: http://www.google.com/generate_204
@@ -190,7 +199,6 @@ proxy-groups:
     strategy: consistent-hashing
     proxies:
       - 🇨🇳 上海
-      - 🇨🇳 山东
       - 🇨🇳 广州
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
