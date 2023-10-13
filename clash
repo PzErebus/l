@@ -3749,5 +3749,10 @@ rules:
  - DOMAIN-SUFFIX,ulivetv.net,▶️ EMBY
  - DOMAIN-SUFFIX,iz8qkg.com,▶️ EMBY
  - DOMAIN-SUFFIX,v82u1l.com,▶️ EMBY
+ - DOMAIN-SUFFIX,histar.tv,▶️ EMBY
+ - DOMAIN-SUFFIX,kuaikan-play2.com,▶️ EMBY
+ - DOMAIN-SUFFIX,media.ulivetv.net,▶️ EMBY
+ - DOMAIN-SUFFIX,cloudfront.net,▶️ EMBY
+ - DOMAIN-SUFFIX,ts.ulivetv.net,▶️ EMBY
  - GEOIP,CN,🎯 全球直连
  - MATCH,🐟 漏网之鱼
