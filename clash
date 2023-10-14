@@ -19,9 +19,6 @@ proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
-      - ⚖️ 负载均衡-散列
-      - ⚖️ 负载均衡-轮询
-      - ♻️ 自动选择
       - DIRECT
       - 🇭🇰 香港1
       - 🇭🇰 香港2
@@ -105,19 +102,7 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点选择
-      - ♻️ 自动选择
-      - 🎯 全球直连
       -  ⚖️ 负载均衡-直连
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 🇯🇵 日本1
-      - 🇯🇵 日本2
-      - 🇸🇬 新加坡1
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡4
-      - 🇨🇳 上海
-      - 🇨🇳 广州
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -164,34 +149,6 @@ proxy-groups:
       - 🇸🇬 新加坡2
       - 🇸🇬 新加坡3
       - 🇸🇬 新加坡4
-  - name: ⚖️ 负载均衡-散列
-    type: load-balance
-    url: http://www.google.com/generate_204
-    interval: 300
-    strategy: consistent-hashing
-    proxies:
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 🇯🇵 日本1
-      - 🇯🇵 日本2
-      - 🇸🇬 新加坡1
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡4
-  - name: ⚖️ 负载均衡-轮询
-    type: load-balance
-    url: http://www.google.com/generate_204
-    interval: 300
-    strategy: round-robin
-    proxies:
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 🇯🇵 日本1
-      - 🇯🇵 日本2
-      - 🇸🇬 新加坡1
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡4
   - name: ⚖️ 负载均衡-直连
     type: load-balance
     url: http://www.google.com/generate_204
@@ -200,6 +157,10 @@ proxy-groups:
     proxies:
       - 🇨🇳 上海
       - 🇨🇳 广州
+      - 🇭🇰 香港1
+      - 🇭🇰 香港2
+      - 🇸🇬 新加坡3
+      - 🇸🇬 新加坡4
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -3738,21 +3699,5 @@ rules:
  - DOMAIN-SUFFIX,cc.carryz.net,▶️ EMBY
  - DOMAIN-SUFFIX,freetz.top,▶️ EMBY
  - DOMAIN-SUFFIX,xmsl.org,▶️ EMBY
- - DOMAIN-SUFFIX,pub1back.emby.wtf,▶️ EMBY
- - DOMAIN-SUFFIX,pub2back.emby.wtf,▶️ EMBY
- - DOMAIN-SUFFIX,pub3back.emby.wtf,▶️ EMBY
- - DOMAIN-SUFFIX,pub1.emby.wtf,▶️ EMBY
- - DOMAIN-SUFFIX,pub2.emby.wtf,▶️ EMBY
- - DOMAIN-SUFFIX,pub3.emby.wtf,▶️ EMBY
- - DOMAIN-SUFFIX,880660.xyz,▶️ EMBY
- - DOMAIN-SUFFIX,aliyuncs.com,▶️ EMBY
- - DOMAIN-SUFFIX,ulivetv.net,▶️ EMBY
- - DOMAIN-SUFFIX,iz8qkg.com,▶️ EMBY
- - DOMAIN-SUFFIX,v82u1l.com,▶️ EMBY
- - DOMAIN-SUFFIX,histar.tv,▶️ EMBY
- - DOMAIN-SUFFIX,kuaikan-play2.com,▶️ EMBY
- - DOMAIN-SUFFIX,media.ulivetv.net,▶️ EMBY
- - DOMAIN-SUFFIX,cloudfront.net,▶️ EMBY
- - DOMAIN-SUFFIX,ts.ulivetv.net,▶️ EMBY
  - GEOIP,CN,🎯 全球直连
  - MATCH,🐟 漏网之鱼
