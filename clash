@@ -28,6 +28,7 @@ proxy-groups:
       - 🇸🇬 新加坡2
       - 🇸🇬 新加坡3
       - 🇸🇬 新加坡4
+      - ⚖️ 负载均衡
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -101,8 +102,9 @@ proxy-groups:
   - name: ▶️ EMBY
     type: select
     proxies:
+      - DIRECT
       - 🚀 节点选择
-      -  ⚖️ 负载均衡-直连
+      -  ⚖️ 负载均衡
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -149,16 +151,18 @@ proxy-groups:
       - 🇸🇬 新加坡2
       - 🇸🇬 新加坡3
       - 🇸🇬 新加坡4
-  - name: ⚖️ 负载均衡-直连
+  - name: ⚖️ 负载均衡
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 300
     strategy: consistent-hashing
     proxies:
-      - 🇨🇳 上海
-      - 🇨🇳 广州
       - 🇭🇰 香港1
       - 🇭🇰 香港2
+      - 🇯🇵 日本1
+      - 🇯🇵 日本2
+      - 🇸🇬 新加坡1
+      - 🇸🇬 新加坡2
       - 🇸🇬 新加坡3
       - 🇸🇬 新加坡4
 rules:
