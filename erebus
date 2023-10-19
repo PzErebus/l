@@ -7,7 +7,7 @@ external-controller: :9090
 proxy-providers:
   mofa:
     type: http
-    url: "https://stra1227.xn--l6q948csgdz41ai1y.com/api/v1/client/subscribe?token=663aac954fc270c7ea6da89ac16635d6"
+    url: "https://mofayun.xyz/api/v1/client/subscribe?token=ac76bcec68ee88ffa297abd0613e212b"
     interval: 86400
     path:  ./profiles/mofa.yaml
     health-check:
