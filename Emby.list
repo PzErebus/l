@@ -1,12 +1,6 @@
 # > NAME: Emby
 # > UPDATED: 2023-10-20 16:59:22
 
-# > 流媒体emby服务器
-
-DOMAIN-SUFFIX,odysseyplus.site
-DOMAIN-SUFFIX,jmsooo.com
-DOMAIN-SUFFIX,emby.wtf
-
 # > emby-maying
 DOMAIN,emby.maying.club
 
@@ -54,9 +48,7 @@ DOMAIN,emby.immtel.com
 
 # > Odyssey
 DOMAIN,cf.odysseyplus.site
-DOMAIN,agahk.odysseyplus.site
-DOMAIN,agasg.odysseyplus.site
-DOMAIN,ru.odysseyplus.site
+DOMAIN,v.odysseyplus.site
 
 # > Exflux
 DOMAIN,line.emby.men
@@ -82,7 +74,7 @@ DOMAIN,cf.jmsooo.com
 DOMAIN,hk.jmsooo.com
 DOMAIN,sg.jmsooo.com
 
-# > 卷毛鼠
+# > 终点站
 DOMAIN,emby.wtf
 DOMAIN,pub1back.emby.wtf
 DOMAIN,pub2back.emby.wtf
@@ -121,7 +113,7 @@ DOMAIN-SUFFIX,xmsl.org
 # > Cc
 DOMAIN,cc.carryz.net
 DOMAIN,plex.ccemby.live
-DOMAIN,cc.ccemby.tk
+DOMAIN,cc.coemn.com
 
 # > Peach
 DOMAIN,embymv.tk
