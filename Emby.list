@@ -1,424 +1,345 @@
 ### A
 
 # ACA & MisakaF
-
-HOST-SUFFIX,emby.aca.best,PROXY
-HOST-SUFFIX,porn.aca.best,PROXY
+DOMAIN,emby.aca.best
+DOMAIN,porn.aca.best
 
 # 阿甘
-
-HOST-SUFFIX,agan2.vip,PROXY
+DOMAIN,agan2.vip
 
 # Aiyowei
-
-HOST-SUFFIX,[emby.aiyowei.ml](http://emby.aiyowei.ml/),PROXY
+DOMAIN,emby.aiyowei.ml
 
 ### B
 
 # BGK
-
-HOST-SUFFIX,[emby.pro](http://emby.pro/),PROXY
+DOMAIN,emby.pro
 
 # 白丝(Porn)
-
-HOST-SUFFIX,[baisi.pro](http://baisi.pro/),PROXY
+DOMAIN,baisi.pro
 
 # EmbyX(拨浪鼓)
-
-HOST-SUFFIX,speedx.one,PROXY
+DOMAIN,speedx.one
 
 ### C
-
 # CC_Emby
-
-HOST,[cc.coemn.com](http://cc.coemn.com/),PROXY
-HOST-SUFFIX,[cc.ccemby.tk](http://cc.ccemby.tk/),PROXY
-HOST-SUFFIX,[carryz.net](http://carryz.net/),PROXY
+HOST,cc.coemn.com
+DOMAIN,cc.ccemby.tk
+DOMAIN,carryz.net
 
 # CherryEmby
-
-HOST-SUFFIX,cherrytv.one,PROXY
+DOMAIN,cherrytv.one
 
 # 尘烬(未燃)
-
-HOST-SUFFIX,[emby.eu.org](http://emby.eu.org/),PROXY
+DOMAIN,emby.eu.org(http://emby.eu.org/)
 
 # CaptainZ
-
-HOST-SUFFIX,[wiri.tk](http://wiri.tk/),PROXY
+DOMAIN,wiri.tk(http://wiri.tk/)
 
 ### D
 
 # Dolphin(海豚)
-
-HOST-SUFFIX,xiaoyi.one,PROXY
+DOMAIN,xiaoyi.one
 
 ### E
 
 # Exflux
-
-HOST-SUFFIX,line.emby.men,PROXY
+DOMAIN,line.emby.men
 
 # Emby Hub & EdNovascloud
-
-HOST-SUFFIX,[ednovas.org](http://ednovas.org/),PROXY
+DOMAIN,ednovas.org
 
 ### F
 
 # Facmata
-
-HOST-SUFFIX,[cinema.facmata.net](http://cinema.facmata.net/),PROXY
+DOMAIN,cinema.facmata.net
 
 # 飞跃彩虹
-
-HOST-SUFFIX,7777777.buzz,PROXY
-HOST-SUFFIX,581658.best,PROXY
+DOMAIN,7777777.buzz
+DOMAIN,581658.best
 
 # 佛系(Free Emby 酷群)
 
-HOST-SUFFIX,[4545.cf](http://4545.cf/),PROXY
+DOMAIN,4545.cf
 
 ### G
 
 # GuGu Emby
-
-HOST-SUFFIX,gugumedia.link,PROXY
+DOMAIN,gugumedia.link
 
 # Godetia(猫熊)
-
-HOST-SUFFIX,emby.ssltd.xyz,PROXY
+DOMAIN,emby.ssltd.xyz
 
 # GFW_Emby
-
-HOST-SUFFIX,[gfwemby.org](http://gfwemby.org/),PROXY
+DOMAIN,gfwemby.org
 
 # 瓜田李下
-
-HOST-SUFFIX,[gtlx.org](http://gtlx.org/),PROXY
+DOMAIN,gtlx.org
 
 ### H
 
 # HXD(Porn)
-
-HOST-SUFFIX,[hxd.as174.com](http://hxd.as174.com/),PROXY
-HOST-SUFFIX,bili.rip,PROXY
-HOST-SUFFIX,nvidia.rip,PROXY
+DOMAIN,hxd.as174.com
+DOMAIN,bili.rip
+DOMAIN,nvidia.rip
 
 # 红尘(Porn)
-
-HOST-SUFFIX,cc.semby.ink,PROXY
-HOST-SUFFIX,[happyav.eu.org](http://happyav.eu.org/),PROXY
+DOMAIN,cc.semby.ink
+DOMAIN,happyav.eu.org(
 
 # 黑丝(Porn)
-
-HOST-SUFFIX,[i109.com](http://i109.com/),PROXY
+DOMAIN,i109.com
 
 # 花云
-
-HOST-SUFFIX,emby.flowercloud,PROXY
+DOMAIN,emby.flowercloud
 
 # 黑猫影视EMBY
-
-HOST-SUFFIX,[uuuoo.cc](http://uuuoo.cc/),PROXY
-HOST-SUFFIX,emby.bid,PROXY
-HOST-SUFFIX,emby.date,PROXY
-HOST-SUFFIX,emby.loan,PROXY
-HOST-SUFFIX,emby.trade,PROXY
+DOMAIN,uuuoo.cc
+DOMAIN,emby.bid
+DOMAIN,emby.date
+DOMAIN,emby.loan
+DOMAIN,emby.trade
 
 # HKA(私服自建)
-
-HOST-SUFFIX,252798.xyz,PROXY
+DOMAIN,252798.xyz
 
 ### I
 
 # Immtel
-
-HOST-SUFFIX,[emby.immtel.com](http://emby.immtel.com/),PROXY
+DOMAIN,emby.immtel.com
 
 # Infinityfly
-
-HOST-SUFFIX,infinityfly.top,PROXY
+DOMAIN,infinityfly.top
 
 ### J
 
 # 剧狗
-
-HOST-SUFFIX,ju.dog,PROXY
-IP-CIDR,202.61.255.248/32,PROXY
+DOMAIN,ju.dog
+IP-CIDR,202.61.255.248/32
 
 # 江湖(Porn)
-
-HOST-SUFFIX,reddust.link,PROXY
+DOMAIN,reddust.link
 
 ### K
 
 # 卡戎
-
-HOST-SUFFIX,[charontv.com](http://charontv.com/),PROXY
+DOMAIN,charontv.com
 
 ### L
 
 # Lyrebird(琴鸟)
-
-HOST-SUFFIX,[lyrebirdemby.com](http://lyrebirdemby.com/),PROXY
+DOMAIN,lyrebirdemby.com
 
 # 垃圾影音(1111,Loser)
-
-HOST-SUFFIX,[xmsl.org](http://xmsl.org/),PROXY
-HOST-SUFFIX,[emby.ml](http://emby.ml/),PROXY
-HOST-SUFFIX,[loseremby.org](http://loseremby.org/),PROXY
+DOMAIN,xmsl.org
+DOMAIN,emby.ml
+DOMAIN,loseremby.org
 
 # 牢大(Emby餐厅)
-
-HOST-SUFFIX,[mius.uk](http://mius.uk/),PROXY
-HOST-SUFFIX,16bit.cfd,PROXY
+DOMAIN,mius.uk
+DOMAIN,16bit.cfd
 
 # Land Emby
-
-HOST-SUFFIX,emby.lcloud.wiki,PROXY
+DOMAIN,emby.lcloud.wiki
 
 # 蓝海
-
-HOST-SUFFIX,[blueseacdn.com](http://blueseacdn.com/),PROXY
-IP-CIDR,212.90.120.164/32,PROXY
+DOMAIN,blueseacdn.com
+IP-CIDR,212.90.120.164/32
 
 ### M
 
 # MisakaF
-
-HOST-SUFFIX,[misakaf.org](http://misakaf.org/),PROXY
+DOMAIN,misakaf.org
 
 # MjjEmby
-
-HOST-SUFFIX,[mjjemby.org](http://mjjemby.org/),PROXY
+DOMAIN,mjjemby.org
 
 # Maying
-
-HOST-SUFFIX,emby.maying.club,PROXY
+DOMAIN,emby.maying.club
 
 # Marmot(土拨鼠)
-
-HOST-SUFFIX,20120714.xyz,PROXY
+DOMAIN,20120714.xyz
 
 # Magpie(喜鹊)
-
-HOST-SUFFIX,magpie.cyou,PROXY
-HOST-SUFFIX,magpiecdn.tech,PROXY
+DOMAIN,magpie.cyou
+DOMAIN,magpiecdn.tech
 
 # Misty Emby
-
-HOST-SUFFIX,misty.ltd,PROXY
-HOST-SUFFIX,[em.ssky.me](http://em.ssky.me/),PROXY
+DOMAIN,misty.ltd
+DOMAIN,em.ssky.me
 
 # MagicCloud(魔法Emby)
-
-HOST-SUFFIX,freetz.top,PROXY
+DOMAIN,freetz.top
 
 # Mulgore(莫高雷)
-
-HOST-SUFFIX,[mulgore.net](http://mulgore.net/),PROXY
+DOMAIN,mulgore.net
 
 # MdssCloud
-
-HOST-SUFFIX,emby.mdss.cloud,PROXY
+DOMAIN,emby.mdss.cloud
 
 ### N
 
 # ntRRR
-
-HOST-SUFFIX,[ntrrr.am.sb](http://ntrrr.am.sb/),PROXY
-HOST-SUFFIX,stream.ntrrr.top,PROXY
-HOST-SUFFIX,[stream.synn.cc](http://stream.synn.cc/),PROXY
+DOMAIN,ntrrr.am.sb
+DOMAIN,stream.ntrrr.top
+DOMAIN,stream.synn.cc
 
 # Nexitally
-
-HOST-SUFFIX,[emby.nexitally.com](http://emby.nexitally.com/),PROXY
+DOMAIN,emby.nexitally.com
 
 # NMEmby
-
-HOST-SUFFIX,[ohhhh.org](http://ohhhh.org/),PROXY
-HOST-SUFFIX,[goodisp.org](http://goodisp.org/),PROXY
-HOST-SUFFIX,[hovervan.org](http://hovervan.org/),PROXY
+DOMAIN,ohhhh.org
+DOMAIN,goodisp.org
+DOMAIN,hovervan.org
 
 # Nya Media
-
-HOST-SUFFIX,[bangumi.ca](http://bangumi.ca/),PROXY
+DOMAIN,bangumi.ca
 
 # nijigem(二次元)
-
-HOST-SUFFIX,[nijigem.by](http://nijigem.by/),PROXY
+DOMAIN,nijigem.by
 
 # Nebula
-
-HOST-SUFFIX,[nebula-emby.com](http://nebula-emby.com/),PROXY
+DOMAIN,nebula-emby.com
 
 # Netcup
-
-HOST-SUFFIX,[404.sb](http://404.sb/),PROXY
+DOMAIN,404.sb
 
 # NyanCATcloud
-
-HOST-SUFFIX,[emby.nyancat.net](http://emby.nyancat.net/),PROXY
+DOMAIN,emby.nyancat.net
 
 # 泥视频
-
-HOST-SUFFIX,[nivod4.tv](http://nivod4.tv/),PROXY
-HOST-SUFFIX,[newpppp.com](http://newpppp.com/),PROXY
+DOMAIN,nivod4.tv
+DOMAIN,newpppp.com
 
 # Nanflix
-
-HOST-SUFFIX,[nanflix.net](http://nanflix.net/),PROXY
+DOMAIN,nanflix.net
 
 ### O
 
 # Odyssey+
-
-HOST-SUFFIX,cf.odysseyplus.site,PROXY
-HOST-SUFFIX,v.odysseyplus.site,PROXY
+DOMAIN,cf.odysseyplus.site
+DOMAIN,v.odysseyplus.site
 
 # Otaku
-
-HOST-SUFFIX,[emby.ok.edu.hk](http://emby.ok.edu.hk/),PROXY
-HOST-SUFFIX,[emby.neko.edu.rs](http://emby.neko.edu.rs/),PROXY
-HOST-SUFFIX,emby.otakudrive.life,PROXY
-HOST-SUFFIX,emby2.otakudrive.life,PROXY
+DOMAIN,emby.ok.edu.hk
+DOMAIN,emby.neko.edu.rs
+DOMAIN,emby.otakudrive.life
+DOMAIN,emby2.otakudrive.life
 
 # OUO
-
-HOST-SUFFIX,[ouonet.org](http://ouonet.org/),PROXY
+DOMAIN,ouonet.org
 
 ### P
 
 # PiliPili
-
-HOST-SUFFIX,[emby77.cf](http://emby77.cf/),PROXY
-HOST-SUFFIX,[emby77.org](http://emby77.org/),PROXY
-HOST-SUFFIX,pilipiliultra.top,PROXY
-HOST-SUFFIX,[pilipiliultra.com](http://pilipiliultra.com/),PROXY
-HOST-SUFFIX,pilipili.club,PROXY
+DOMAIN,emby77.cf
+DOMAIN,emby77.org
+DOMAIN,pilipiliultra.top
+DOMAIN,pilipiliultra.com
+DOMAIN,pilipili.club
 
 # PornEmby
-
-HOST-SUFFIX,pornemby.club,PROXY
-HOST-SUFFIX,[ii00.cc](http://ii00.cc/),PROXY
+DOMAIN,pornemby.club
+DOMAIN,ii00.cc
 
 # PornEmby(网抑云)
-
-HOST,195.201.86.86,PROXY
+HOST,195.201.86.86
 
 # polo(儿童)
-
-HOST-SUFFIX,poloemby.xyz,PROXY
-HOST-SUFFIX,[pololine.ml](http://pololine.ml/),PROXY
+DOMAIN,poloemby.xyz
+DOMAIN,pololine.ml
 
 # 品云
-
-HOST-SUFFIX,embyplus.club,PROXY
+DOMAIN,embyplus.club
 
 # paoche
+DOMAIN,emby.cjpc.cc
 
-HOST-SUFFIX,[emby.cjpc.cc](http://emby.cjpc.cc/),PROXY
+# peach
+DOMAIN,embymv.me
+DOMAIN,embymv.tk
 
 # prprcloud
-
-HOST-SUFFIX,[emby.prprcloud.com](http://emby.prprcloud.com/),PROXY
+DOMAIN,emby.prprcloud.com
 
 # Paul(保罗)
-
-HOST-SUFFIX,imetyou.top,PROXY
+DOMAIN,imetyou.top
 
 # 普拉斯影业
-
-HOST-SUFFIX,[embyserver.ga](http://embyserver.ga/),PROXY
-HOST-SUFFIX,emby.plusmedia.site,PROXY
-HOST-SUFFIX,emby-cf.plusmedia.site,PROXY
-HOST-SUFFIX,emby-sg.plusmedia.site,PROXY
-HOST-SUFFIX,jellyfin.xeton.dev,PROXY
-HOST-SUFFIX,movie.xeton.dev,PROXY
-HOST-SUFFIX,servers.xeton.dev,PROXY
+DOMAIN,embyserver.ga
+DOMAIN,emby.plusmedia.site
+DOMAIN,emby-cf.plusmedia.site
+DOMAIN,emby-sg.plusmedia.site
+DOMAIN,jellyfin.xeton.dev
+DOMAIN,movie.xeton.dev
+DOMAIN,servers.xeton.dev
 
 ### Q
 
 ### R
 
 # 忍者云Emby
-
-HOST-SUFFIX,[emby1.medi4.org](http://emby1.medi4.org/),PROXY
-HOST-SUFFIX,[emby2.medi4.org](http://emby2.medi4.org/),PROXY
+DOMAIN,emby1.medi4.org
+DOMAIN,emby2.medi4.org
 
 # Robo
-
-HOST-SUFFIX,[91ai.de](http://91ai.de/),PROXY
+DOMAIN,91ai.de
 
 ### S
 
 # SYN
-
-HOST-SUFFIX,[stream.synn.cc](http://stream.synn.cc/),PROXY
-HOST-SUFFIX,stream.ntrrr.top,PROXY
+DOMAIN,stream.synn.cc
+DOMAIN,stream.ntrrr.top
 
 # 私房菜Emby
 
-HOST,notnetflix.cos.cat,PROXY
-HOST,cminf.sfcat.link,PROXY
-HOST,cuinf.sfcat.link,PROXY
+HOST,notnetflix.cos.cat
+HOST,cminf.sfcat.link
+HOST,cuinf.sfcat.link
 
 # 守候网络Emby
-
-HOST-SUFFIX,[emby.cn2gias.uk](http://emby.cn2gias.uk/),PROXY
-HOST-SUFFIX,[post.cn2gias.uk](http://post.cn2gias.uk/),PROXY
+DOMAIN,emby.cn2gias.uk
+DOMAIN,post.cn2gias.uk
 
 # SarCat
-
-HOST-SUFFIX,[starcat.eu.org](http://starcat.eu.org/),PROXY
-HOST-SUFFIX,[catlinks.co.uk](http://catlinks.co.uk/),PROXY
+DOMAIN,starcat.eu.org
+DOMAIN,catlinks.co.uk
 
 # 叔服(Porn)
-
-HOST-SUFFIX,mcjoker.xyz,PROXY
+DOMAIN,mcjoker.xyz
 
 # Singularity(Porn)
-
-HOST-SUFFIX,deja-vu.beauty,PROXY
+DOMAIN,deja-vu.beauty
 
 # 水泊梁山
-
-HOST-SUFFIX,shuipo.lol,PROXY
+DOMAIN,shuipo.lol
 
 # Studyfun
-
-HOST-SUFFIX,studyfun.live,PROXY
+DOMAIN,studyfun.live
 
 # SoCloud
-
-HOST-SUFFIX,emby.run,PROXY
+DOMAIN,emby.run
 
 ### T
 
 # 探花TV(Jellyfin Porn)
-
-HOST-SUFFIX,tanhuatv.site,PROXY
-IP-CIDR,152.53.67.239/32,PROXY
+DOMAIN,tanhuatv.site
+IP-CIDR,152.53.67.239/32
 
 # TreeDiagram(树状图)
-
-HOST-SUFFIX,[123456.al](http://123456.al/),PROXY
+DOMAIN,123456.al
 
 # 特卡
-
-HOST-SUFFIX,carlos.trade,PROXY
+DOMAIN,carlos.trade
 
 # Temby
-
-HOST-SUFFIX,285286.xyz,PROXY
+DOMAIN,285286.xyz
 
 # 太空人
 
-HOST-SUFFIX,tkremby.xyz,PROXY
-
+DOMAIN,tkremby.xyz
 # Texon
-
-HOST-SUFFIX,texon.fans,PROXY
+DOMAIN,texon.fans
 
 ### U
 
@@ -429,68 +350,59 @@ HOST-SUFFIX,texon.fans,PROXY
 ### X
 
 # 熊猫
-
-HOST-SUFFIX,[embyclub.com](http://embyclub.com/),PROXY
-HOST-SUFFIX,[az-hk.embyclub.com](http://az-hk.embyclub.com/),PROXY
-HOST-SUFFIX,[azsgp.embyclub.com](http://azsgp.embyclub.com/),PROXY
+DOMAIN,embyclub.com
+DOMAIN,az-hk.embyclub.com
+DOMAIN,azsgp.embyclub.com
 
 # xeton
-
-HOST-SUFFIX,emby.xeton.dev,PROXY
-HOST-SUFFIX,jellyfin.xeton.dev,PROXY
-HOST-SUFFIX,movie.xeton.dev,PROXY
-HOST-SUFFIX,servers.xeton.dev,PROXY
+DOMAIN,emby.xeton.dev
+DOMAIN,jellyfin.xeton.dev
+DOMAIN,movie.xeton.dev
+DOMAIN,servers.xeton.dev
 
 ### Y
 
 # YTOO
-
-HOST-SUFFIX,[emby.ytoo.li](http://emby.ytoo.li/),PROXY
+DOMAIN,emby.ytoo.li
 
 ### Z
 
 # ZDZ(Terminus)
-
-HOST-SUFFIX,emby.wtf,PROXY
-HOST-SUFFIX,pub1.emby.wtf,PROXY
-HOST-SUFFIX,pub2.emby.wtf,PROXY
-HOST-SUFFIX,pub3.emby.wtf,PROXY
-HOST-SUFFIX,pub1cf.emby.wtf,PROXY
-HOST-SUFFIX,pub2cf.emby.wtf,PROXY
-HOST-SUFFIX,pub3cf.emby.wtf,PROXY
-HOST-SUFFIX,pub1back.emby.wtf,PROXY
-HOST-SUFFIX,pub2back.emby.wtf,PROXY
-HOST-SUFFIX,pub3back.emby.wtf,PROXY
+DOMAIN,emby.wtf
+DOMAIN,pub1.emby.wtf
+DOMAIN,pub2.emby.wtf
+DOMAIN,pub3.emby.wtf
+DOMAIN,pub1cf.emby.wtf
+DOMAIN,pub2cf.emby.wtf
+DOMAIN,pub3cf.emby.wtf
+DOMAIN,pub1back.emby.wtf
+DOMAIN,pub2back.emby.wtf
+DOMAIN,pub3back.emby.wtf
 
 # 纸片人
-
-HOST-SUFFIX,9521732.xyz,PROXY
-HOST-SUFFIX,[embyplus.org](http://embyplus.org/),PROXY
+DOMAIN,9521732.xyz
+DOMAIN,embyplus.org
 
 # Zox/AcEmby
-
-HOST-SUFFIX,zox.show,PROXY
-HOST-SUFFIX,[acemby.org](http://acemby.org/),PROXY
+DOMAIN,zox.show
+DOMAIN,acemby.org
 
 # 梓澪の妙妙屋
-
-HOST-SUFFIX,zi0.icu,PROXY
+DOMAIN,zi0.icu
 
 ### 0-9
 
 ### 未分类
 
-HOST-SUFFIX,[emby.ws](http://emby.ws/),PROXY
-HOST-SUFFIX,[emby.cl](http://emby.cl/),PROXY
-HOST-SUFFIX,emby.kim,PROXY
-HOST-SUFFIX,[embymv.me](http://embymv.me/),PROXY
-HOST-SUFFIX,[embymv.tk](http://embymv.tk/),PROXY
-HOST-SUFFIX,[embytv.cf](http://embytv.cf/),PROXY
-HOST-SUFFIX,[agon.cf](http://agon.cf/),PROXY
-HOST-SUFFIX,[ggtt.cf](http://ggtt.cf/),PROXY
-HOST-SUFFIX,[bddup.com](http://bddup.com/),PROXY
-HOST-SUFFIX,newwan.top,PROXY
-HOST-SUFFIX,[dicarerhome.com](http://dicarerhome.com/),PROXY
-HOST-SUFFIX,lucasmedia.top,PROXY
-HOST-SUFFIX,9191001.xyz,PROXY
-IP-CIDR,188.172.228.49/32,PROXY
+DOMAIN,emby.ws
+DOMAIN,emby.cl
+DOMAIN,emby.kim
+DOMAIN,embytv.cf
+DOMAIN,agon.cf
+DOMAIN,ggtt.cf
+DOMAIN,bddup.com
+DOMAIN,newwan.top
+DOMAIN,dicarerhome.com
+DOMAIN,lucasmedia.top
+DOMAIN,9191001.xyz
+IP-CIDR,188.172.228.49/32
