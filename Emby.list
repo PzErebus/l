@@ -242,9 +242,6 @@ DOMAIN,pilipili.club
 DOMAIN,pornemby.club
 DOMAIN,ii00.cc
 
-# PornEmby(网抑云)
-HOST,195.201.86.86
-
 # polo(儿童)
 DOMAIN,poloemby.xyz
 DOMAIN,pololine.ml
@@ -293,9 +290,9 @@ DOMAIN,stream.ntrrr.top
 
 # 私房菜Emby
 
-HOST,notnetflix.cos.cat
-HOST,cminf.sfcat.link
-HOST,cuinf.sfcat.link
+DOMAIN,notnetflix.cos.cat
+DOMAIN,cminf.sfcat.link
+DOMAIN,cuinf.sfcat.link
 
 # 守候网络Emby
 DOMAIN,emby.cn2gias.uk
