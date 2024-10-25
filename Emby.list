@@ -22,6 +22,7 @@ DOMAIN,baisi.pro
 DOMAIN,speedx.one
 
 ### C
+
 # CC_Emby
 DOMAIN,cc.coemn.com
 DOMAIN,cc.ccemby.tk
@@ -31,10 +32,10 @@ DOMAIN,carryz.net
 DOMAIN,cherrytv.one
 
 # 尘烬(未燃)
-DOMAIN,emby.eu.org(http://emby.eu.org/)
+DOMAIN,emby.eu.org
 
 # CaptainZ
-DOMAIN,wiri.tk(http://wiri.tk/)
+DOMAIN,wiri.tk
 
 ### D
 
@@ -85,7 +86,7 @@ DOMAIN,nvidia.rip
 
 # 红尘(Porn)
 DOMAIN,cc.semby.ink
-DOMAIN,happyav.eu.org(
+DOMAIN,happyav.eu.org
 
 # 黑丝(Porn)
 DOMAIN,i109.com
@@ -115,7 +116,6 @@ DOMAIN,infinityfly.top
 
 # 剧狗
 DOMAIN,ju.dog
-IP-CIDR,202.61.255.248/32
 
 # 江湖(Porn)
 DOMAIN,reddust.link
@@ -402,4 +402,3 @@ DOMAIN,newwan.top
 DOMAIN,dicarerhome.com
 DOMAIN,lucasmedia.top
 DOMAIN,9191001.xyz
-IP-CIDR,188.172.228.49/32
