@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  backend:
+    build: .
+    container_name: metro-backend
+    ports:
+      - "3000:3000"
+    volumes:
+      # Mount the db.json file into a volume to persist data
+      # This ensures that your metro line data is not lost when the container is stopped or restarted.
+      - metro-data:/app/db.json
+    restart: unless-stopped
+
+volumes:
+  # Define the named volume for data persistence
+  metro-data:

@@ -2,7 +2,11 @@
 
 This document provides instructions for deploying the backend server and the WeChat Mini Program.
 
-## Part 1: Backend Server Deployment
+---
+
+## Part 1: Manual Backend Server Deployment
+
+This method is suitable if you prefer to manage Node.js and the application process manually.
 
 ### Prerequisites
 
@@ -72,3 +76,37 @@ This document provides instructions for deploying the backend server and the WeC
     *   After the upload is successful, go back to the WeChat MP Admin Platform.
     *   Navigate to "管理" (Management) -> "版本管理" (Version Management). You should see the version you just uploaded.
     *   You can submit this version for review. After WeChat's review passes, you can publish it to make it available to all users.
+
+---
+
+## Part 3: Docker Deployment (Recommended)
+
+This is the recommended method as it simplifies dependency management and ensures a consistent environment.
+
+### Prerequisites
+
+*   A server with `Docker` and `Docker Compose` installed.
+*   A tool to copy files to your server (like `scp` or an FTP client).
+
+### Steps
+
+1.  **Copy Project Files**:
+    *   Transfer all project files, including the `Dockerfile` and `docker-compose.yml`, to a new directory on your server (e.g., `/home/user/gz-metro-backend`).
+
+2.  **Build and Run the Container**:
+    *   Navigate to your project directory on the server via SSH:
+        ```bash
+        cd /home/user/gz-metro-backend
+        ```
+    *   Run the following command to build the Docker image and start the container in the background:
+        ```bash
+        docker-compose up -d
+        ```
+    *   Docker will now handle everything: it will build the image, install dependencies, and run the server. The `restart: unless-stopped` policy in `docker-compose.yml` ensures it runs automatically after a server reboot.
+
+3.  **Firewall and Data**:
+    *   Ensure your server's firewall allows traffic on port `3000`.
+    *   The `docker-compose.yml` file is configured to use a named volume (`metro-data`) to persist the `db.json` file. This means your data is safe even if you remove and recreate the container.
+
+4.  **Mini Program Configuration**:
+    *   Follow the same steps as in "Part 2: WeChat Mini Program Publication" to update the API endpoint to your server's IP/domain and configure the legal domain in the WeChat platform. The endpoint is the same regardless of whether you use Docker or manual deployment.
