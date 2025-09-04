@@ -1,0 +1,32 @@
+<!--pages/detail/detail.wxml-->
+<view class="container">
+  <view wx:if="{{line}}">
+    <view class="header">
+      <text class="line-title">{{line.lineName}}</text>
+    </view>
+
+    <view class="station-list">
+      <view class="list-header">
+        <text class="station-name-header">站点</text>
+        <text class="schedule-header">首/末班车</text>
+      </view>
+      <block wx:for="{{line.stations}}" wx:key="stationId">
+        <view class="station-item">
+          <text class="station-name">{{item.stationName}}</text>
+          <view class="schedule-details">
+            <block wx:for="{{item.schedule}}" wx:key="direction" wx:for-item="directionInfo">
+              <view class="direction-block">
+                <text class="direction-text">{{directionInfo.direction}}</text>
+                <text class="time-text">首: {{directionInfo.first}} | 末: {{directionInfo.last}}</text>
+              </view>
+            </block>
+          </view>
+        </view>
+      </block>
+    </view>
+
+  </view>
+  <view wx:else class="loading-container">
+    <text>正在加载线路详情...</text>
+  </view>
+</view>

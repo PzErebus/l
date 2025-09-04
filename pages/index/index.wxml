@@ -1,0 +1,27 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+  <view class="header">
+    <text class="title">广州地铁线路</text>
+  </view>
+
+  <!-- Loading State -->
+  <view wx:if="{{loading}}" class="loading-container">
+    <text>正在加载线路...</text>
+  </view>
+
+  <!-- Error State -->
+  <view wx:elif="{{error}}" class="error-container">
+    <text>{{error}}</text>
+    <button bindtap="fetchLines">重试</button>
+  </view>
+
+  <!-- Content List -->
+  <view wx:else class="line-list">
+    <block wx:for="{{lines}}" wx:key="lineId">
+      <view class="line-item" bindtap="goToDetail" data-index="{{index}}">
+        <text class="line-name">{{item.lineName}}</text>
+        <text class="arrow">></text>
+      </view>
+    </block>
+  </view>
+</view>

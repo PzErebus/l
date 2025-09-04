@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>地铁线路管理后台</title>
+    <style>
+        body { font-family: sans-serif; margin: 2em; }
+        form { margin-bottom: 2em; padding: 1em; border: 1px solid #ccc; border-radius: 5px; }
+        input, textarea, button { display: block; width: 95%; margin-bottom: 1em; padding: 0.5em; }
+        h1, h2 { color: #333; }
+        ul { list-style-type: none; padding: 0; }
+        li { background: #f4f4f4; padding: 1em; margin-bottom: 0.5em; border-radius: 5px; }
+        pre { background: #eee; padding: 1em; border-radius: 5px; white-space: pre-wrap; word-wrap: break-word; }
+    </style>
+</head>
+<body>
+    <h1>地铁线路管理后台</h1>
+
+    <form id="line-form">
+        <h2>添加新线路</h2>
+        <input type="text" id="lineName" placeholder="线路名称 (例如: 广州地铁1号线)" required>
+        <textarea id="stations" rows="10" placeholder="站点信息 (请使用 JSON 格式)" required></textarea>
+        <small>站点信息JSON格式示例: <br>
+            [{"stationName": "西塱", "schedule": {"toGuangzhouEast": {"direction": "往广州东站方向", "first": "06:10", "last": "23:30"}}}]
+        </small>
+        <button type="submit">添加线路</button>
+    </form>
+
+    <h2>已添加的线路</h2>
+    <ul id="lines-list">
+        <!-- Lines will be dynamically loaded here -->
+    </ul>
+
+    <script src="admin.js"></script>
+</body>
+</html>

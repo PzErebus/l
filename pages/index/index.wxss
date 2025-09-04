@@ -1,0 +1,54 @@
+/* pages/index/index.wxss */
+.container {
+  padding: 20rpx;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.header {
+  padding: 20rpx;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20rpx;
+}
+
+.title {
+  font-size: 40rpx;
+  font-weight: bold;
+}
+
+.loading-container, .error-container {
+  text-align: center;
+  padding: 50rpx;
+  color: #888;
+}
+
+.error-container button {
+  margin-top: 20rpx;
+}
+
+.line-list {
+  width: 100%;
+}
+
+.line-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30rpx 20rpx;
+  background-color: #fff;
+  border-bottom: 1px solid #f0f0f0;
+  cursor: pointer;
+}
+
+.line-item:active {
+  background-color: #f9f9f9;
+}
+
+.line-name {
+  font-size: 32rpx;
+}
+
+.arrow {
+  color: #ccc;
+  font-size: 32rpx;
+}
