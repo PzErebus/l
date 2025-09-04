@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>管理员登录</title>
+    <style>
+        body { font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #f4f4f4; }
+        .login-container { padding: 2em; background: #fff; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        h1 { text-align: center; }
+        input { display: block; width: 250px; padding: 0.8em; margin-bottom: 1em; border: 1px solid #ccc; border-radius: 3px; }
+        button { width: 100%; padding: 0.8em; border: none; background-color: #007bff; color: white; border-radius: 3px; cursor: pointer; }
+        button:hover { background-color: #0056b3; }
+        .error { color: red; text-align: center; margin-top: 1em; }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h1>管理员登录</h1>
+        <form id="login-form">
+            <input type="text" id="username" placeholder="用户名" required value="admin">
+            <input type="password" id="password" placeholder="密码" required value="admin123">
+            <button type="submit">登录</button>
+        </form>
+        <p id="error-message" class="error"></p>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

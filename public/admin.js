@@ -1,23 +1,51 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
     const apiUrl = 'http://localhost:3000/api/lines';
+    const authCheckUrl = 'http://localhost:3000/api/check-auth';
+    const logoutUrl = 'http://localhost:3000/api/logout';
+
     const lineForm = document.getElementById('line-form');
     const lineNameInput = document.getElementById('lineName');
     const stationsInput = document.getElementById('stations');
     const linesList = document.getElementById('lines-list');
+    const logoutButton = document.getElementById('logout-button');
 
-    // Function to fetch lines and display them
+    // --- Authentication Check ---
+    try {
+        const response = await fetch(authCheckUrl, { credentials: 'include' });
+        const authStatus = await response.json();
+        if (!authStatus.loggedIn) {
+            window.location.href = '/login.html';
+            return; // Stop executing script
+        }
+    } catch (error) {
+        console.error('Auth check failed', error);
+        window.location.href = '/login.html';
+        return;
+    }
+
+    // --- Logout Button ---
+    logoutButton.addEventListener('click', async () => {
+        try {
+            await fetch(logoutUrl, { method: 'POST', credentials: 'include' });
+            window.location.href = '/login.html';
+        } catch (error) {
+            console.error('Logout failed', error);
+            alert('Logout failed. Please try again.');
+        }
+    });
+
+    // --- Page Logic ---
     const fetchAndDisplayLines = async () => {
         try {
-            const response = await fetch(apiUrl);
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
+            const response = await fetch(apiUrl, { credentials: 'include' });
+            if (response.status === 401) { // If session expired or invalid
+                window.location.href = '/login.html';
+                return;
             }
+            if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+
             const lines = await response.json();
-
-            // Clear current list
-            linesList.innerHTML = '';
-
-            // Render each line
+            linesList.innerHTML = ''; // Clear current list
             lines.forEach(line => {
                 const li = document.createElement('li');
                 li.innerHTML = `
@@ -30,14 +58,12 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         } catch (error) {
             console.error('Failed to fetch lines:', error);
-            linesList.innerHTML = '<li>Error loading lines. Check the console for details.</li>';
+            linesList.innerHTML = '<li>Error loading lines. Check console.</li>';
         }
     };
 
-    // Function to handle form submission
     lineForm.addEventListener('submit', async (event) => {
         event.preventDefault();
-
         const lineName = lineNameInput.value.trim();
         const stationsRaw = stationsInput.value.trim();
 
@@ -50,38 +76,34 @@ document.addEventListener('DOMContentLoaded', () => {
         try {
             stations = JSON.parse(stationsRaw);
         } catch (error) {
-            alert('Stations data is not valid JSON. Please check the format.');
+            alert('Stations data is not valid JSON.');
             return;
         }
 
-        const newLine = {
-            lineName,
-            stations
-        };
+        const newLine = { lineName, stations };
 
         try {
             const response = await fetch(apiUrl, {
                 method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
+                headers: { 'Content-Type': 'application/json' },
+                credentials: 'include',
                 body: JSON.stringify(newLine),
             });
 
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
+            if (response.status === 401) {
+                window.location.href = '/login.html';
+                return;
             }
+            if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
 
-            // Clear form and refresh list
             lineForm.reset();
             await fetchAndDisplayLines();
 
         } catch (error) {
             console.error('Failed to add line:', error);
-            alert('Error adding line. Check the console for details.');
+            alert('Error adding line. Check console.');
         }
     });
 
-    // Initial load of lines
-    fetchAndDisplayLines();
+    fetchAndDisplayLines(); // Initial load
 });
